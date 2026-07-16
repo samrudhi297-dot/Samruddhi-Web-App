@@ -316,6 +316,27 @@
 }
 
 /* ─── Footer Phase 2 ─── */
+.ori-footer-copyright .se-footer-credit {
+  display: inline-block;
+  line-height: 1.7;
+}
+
+.ori-footer-copyright .se-footer-credit a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.ori-footer-copyright .se-footer-credit a:hover {
+  opacity: 0.85;
+}
+
+.ori-footer-copyright .se-footer-heart {
+  color: #e11d48;
+  display: inline-block;
+  margin: 0 2px;
+}
+
 .se-footer-enhanced .ori-footer-title {
   margin-bottom: 40px;
 }

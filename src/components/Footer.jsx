@@ -63,7 +63,18 @@ export default function Footer() {
           </div>
         </div>
         <div className="ori-footer-copyright text-center">
-          <span>© {new Date().getFullYear()} Samruddhi Enterprises. All rights reserved.</span>
+          <span className="se-footer-credit">
+            © {new Date().getFullYear()} Samruddhi Enterprises. All rights reserved.
+            <br />
+            Designed &amp; developed by{' '}
+            <a
+              href="https://nthspacesolutions.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Nth Space Solutions Pvt Ltd
+            </a>
+          </span>
         </div>
       </div>
     </footer>

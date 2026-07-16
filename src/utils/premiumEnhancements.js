@@ -81,9 +81,23 @@ export function enhanceProductDetailPage(container) {
   }
 }
 
+const FOOTER_CREDIT_HTML = `
+  <span class="se-footer-credit">
+    © ${new Date().getFullYear()} Samruddhi Enterprises. All rights reserved.
+    <br />
+    Designed &amp; developed by
+    <a href="https://nthspacesolutions.com/" target="_blank" rel="noopener noreferrer">Nth Space Solutions Pvt Ltd</a>
+  </span>
+`
+
 export function enhanceFooter(container) {
   const footer = container.querySelector('#ori-footer')
-  if (!footer || footer.classList.contains('se-footer-enhanced')) return
+  if (!footer) return
+
+  const copyright = footer.querySelector('.ori-footer-copyright')
+  if (copyright) copyright.innerHTML = FOOTER_CREDIT_HTML
+
+  if (footer.classList.contains('se-footer-enhanced')) return
   footer.classList.add('se-footer-enhanced')
 
   const row = footer.querySelector('.ori-footer-widget-wrapper .row')
