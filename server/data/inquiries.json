@@ -1,0 +1,129 @@
+[
+  {
+    "id": "1783926693969",
+    "name": "Test Lead",
+    "email": "testlead@example.com",
+    "phone": "9876543210",
+    "company": "Test Corp",
+    "message": "Hi, I am interested in Acoustic Door Seal. Please send me more details and pricingE2E testing message..",
+    "createdAt": "2026-07-13T07:11:33.969Z"
+  },
+  {
+    "id": "1783931822753",
+    "name": "test",
+    "email": "test123@gmail.com",
+    "phone": "9989533389",
+    "company": "",
+    "message": "Quotation request for selected items.",
+    "items": [
+      {
+        "name": "Aluminium 3D Corner",
+        "slug": "Aluminium-3D-Corner",
+        "price": "₹45 / Piece",
+        "quantity": 1
+      }
+    ],
+    "createdAt": "2026-07-13T08:37:02.755Z"
+  },
+  {
+    "id": "1783934260714",
+    "name": "Single Req Test",
+    "email": "singlereq@example.com",
+    "phone": "1234567890",
+    "company": "Single Corp",
+    "message": "Need 5 units of Acoustic Door Seal.",
+    "items": [
+      {
+        "name": "Acoustic Door Seal",
+        "slug": "Acoustic-Door-Seal",
+        "price": "₹65 / Meter",
+        "quantity": 5
+      }
+    ],
+    "createdAt": "2026-07-13T09:17:40.715Z"
+  },
+  {
+    "id": "1783934262576",
+    "name": "Cart Checkout Test",
+    "email": "cartcheckout@example.com",
+    "phone": "0987654321",
+    "company": "Cart Corp",
+    "message": "B2B multi-item request.",
+    "items": [
+      {
+        "name": "TDF Duct Corner",
+        "slug": "TDF-Duct-Corner",
+        "price": "₹10 / piece",
+        "quantity": 10
+      },
+      {
+        "name": "SSD Door Handle",
+        "slug": "SSD-Door-Handle",
+        "price": "₹380 / Piece",
+        "quantity": 2
+      }
+    ],
+    "createdAt": "2026-07-13T09:17:42.576Z"
+  },
+  {
+    "id": "1783937741061",
+    "name": "hussain",
+    "email": "hussain@gmail.com",
+    "phone": "6302854696",
+    "company": "",
+    "message": "Hi, I am interested in Aluminium 3D Corner. Please provide a quotation.",
+    "items": [
+      {
+        "name": "Aluminium 3D Corner",
+        "slug": "Aluminium-3D-Corner",
+        "price": "₹45 / Piece",
+        "quantity": 23
+      }
+    ],
+    "createdAt": "2026-07-13T10:15:41.061Z"
+  },
+  {
+    "id": "64278f18-9950-4953-9b51-d67d367b9c7f",
+    "name": "samrudhi",
+    "email": "samrudhi297@gmail.com",
+    "phone": "7269382038",
+    "company": "2kjasnbdkjksd",
+    "message": "Hi, I am interested in Aluminium Covering. Please provide a quotation.",
+    "items": [
+      {
+        "name": "Aluminium Covering",
+        "slug": "Aluminium-Covering",
+        "price": "₹320 / Meter",
+        "quantity": 1
+      }
+    ],
+    "createdAt": "2026-07-15T12:57:48.842Z"
+  },
+  {
+    "id": "261df245-c93b-4df5-ae32-9e1a56e58ca9",
+    "name": "samrudhi",
+    "email": "samrudhi297@gmail.com",
+    "phone": "7269382038",
+    "company": "2kjasnbdkjksd",
+    "message": "Hi, I am interested in Acoustic Door Seal. Please provide a quotation.",
+    "items": [
+      {
+        "name": "Acoustic Door Seal",
+        "slug": "Acoustic-Door-Seal",
+        "price": "₹68 / Meter",
+        "quantity": 1
+      }
+    ],
+    "createdAt": "2026-07-15T13:02:14.010Z"
+  },
+  {
+    "id": "436fb7da-0e69-42dd-9045-e1d44806fbf5",
+    "name": "API DualWrite Test",
+    "email": "test@example.com",
+    "phone": "9999999999",
+    "company": "",
+    "message": "test dual write to supabase",
+    "items": [],
+    "createdAt": "2026-07-15T13:03:39.801Z"
+  }
+]

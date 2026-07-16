@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	<meta charset="UTF-8">
+	<title>Mission</title><link rel="shortcut icon" href="assets/img/logo/ficon.png" type="image/x-icon">
+	<!-- Mobile Specific Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/fontawesome-all.css">
+	<link rel="stylesheet" href="assets/css/animate.css">
+	<link rel="stylesheet" href="assets/css/odometer-theme-default.css">
+	<link rel="stylesheet" href="assets/css/video.min.css">
+	<link rel="stylesheet" href="assets/css/slick-theme.css">
+	<link rel="stylesheet" href="assets/css/slick.css">
+	<link rel="stylesheet" href="assets/css/global.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<style>
+		/* Modern Design Enhancements */
+		:root {
+			--modern-primary: #FF7425;
+			--modern-secondary: #1a1a1a;
+			--modern-accent: #63DAD9;
+			--modern-text: #e0e0e0;
+			--modern-bg: #0D0D0D;
+			--modern-card-bg: rgba(255, 255, 255, 0.03);
+			--modern-border: rgba(255, 255, 255, 0.1);
+		}
+
+		/* Breadcrumb Section Modernization */
+		.ori-breadcrumbs-section {
+			background: linear-gradient(135deg, #0D0D0D 0%, #1a1a1a 50%, #0D0D0D 100%);
+			position: relative;
+			overflow: hidden;
+		}
+
+		.ori-breadcrumbs-section::before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			background: radial-gradient(circle at 30% 50%, rgba(255, 116, 37, 0.1) 0%, transparent 50%),
+						radial-gradient(circle at 70% 50%, rgba(99, 218, 217, 0.08) 0%, transparent 50%);
+			pointer-events: none;
+		}
+
+		.ori-breadcrumb-content h1 {
+			background: linear-gradient(135deg, #ffffff 0%, #FF7425 100%);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			background-clip: text;
+			font-size: clamp(48px, 8vw, 72px);
+			font-weight: 800;
+			letter-spacing: -2px;
+			margin-bottom: 20px;
+			line-height: 1.1;
+		}
+
+		.ori-breadcrumb-content ul {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			gap: 10px;
+			flex-wrap: wrap;
+		}
+
+		.ori-breadcrumb-content ul li {
+			color: var(--modern-text);
+			font-size: 16px;
+		}
+
+		.ori-breadcrumb-content ul li a {
+			color: var(--modern-accent);
+			transition: all 0.3s ease;
+		}
+
+		.ori-breadcrumb-content ul li a:hover {
+			color: var(--modern-primary);
+		}
+
+		/* Mission Section Modernization */
+		.ori-mission-section {
+			background: linear-gradient(180deg, #171717 0%, #0D0D0D 100%);
+			padding: 100px 0;
+		}
+
+		.ori-mission-content {
+			padding: 40px 0;
+		}
+
+		.ori-mission-title-text {
+			padding: 40px;
+			background: var(--modern-card-bg);
+			backdrop-filter: blur(10px);
+			border: 1px solid var(--modern-border);
+			border-radius: 20px;
+			height: 100%;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+
+		.ori-inner-section-title h2 {
+			background: linear-gradient(135deg, #ffffff 0%, #FF7425 100%);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			background-clip: text;
+			font-size: clamp(32px, 4vw, 48px);
+			font-weight: 800;
+			letter-spacing: -1px;
+			line-height: 1.2;
+			margin-bottom: 25px;
+		}
+
+		.ori-inner-section-title p {
+			font-size: clamp(16px, 2vw, 20px);
+			line-height: 1.8;
+			color: var(--modern-text);
+			font-weight: 400;
+			letter-spacing: 0.3px;
+			margin-bottom: 0;
+		}
+
+		.ori-btn-1 {
+			margin-top: 40px;
+		}
+
+		.ori-btn-1 a {
+			display: inline-block;
+			padding: 15px 40px;
+			background: linear-gradient(135deg, #FF7425 0%, #ff8c42 100%);
+			color: #fff;
+			font-weight: 700;
+			border-radius: 50px;
+			text-decoration: none;
+			box-shadow: 0 10px 30px rgba(255, 116, 37, 0.4);
+			transition: all 0.3s ease;
+			letter-spacing: 1px;
+		}
+
+		.ori-btn-1 a:hover {
+			transform: translateY(-3px) scale(1.05);
+			box-shadow: 0 15px 40px rgba(255, 116, 37, 0.6);
+		}
+
+		/* About Play Area Enhancement */
+		.ori-about-play-area {
+			border-radius: 20px;
+			overflow: hidden;
+			box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+			transition: transform 0.3s ease;
+			height: 100%;
+		}
+
+		.ori-about-play-area:hover {
+			transform: translateY(-5px);
+		}
+
+		.ori-about-play-img {
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+		}
+
+		.ori-about-play-img img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			display: block;
+			transition: transform 0.5s ease;
+		}
+
+		.ori-about-play-area:hover .ori-about-play-img img {
+			transform: scale(1.05);
+		}
+
+		/* Sponsor Section Enhancement */
+		.ori-sponsor-section-1 {
+			background: linear-gradient(180deg, #171717 0%, #0D0D0D 100%);
+		}
+
+		.ori-sponsor-item {
+			opacity: 0.6;
+			transition: all 0.3s ease;
+			filter: grayscale(100%);
+		}
+
+		.ori-sponsor-item:hover {
+			opacity: 1;
+			filter: grayscale(0%);
+			transform: scale(1.05);
+		}
+
+		.ori-sponsor-title h3 {
+			font-size: clamp(20px, 3vw, 28px);
+			font-weight: 600;
+			letter-spacing: 1px;
+		}
+
+		.ori-sponsor-title h3 span {
+			color: var(--modern-accent);
+		}
+
+		/* Footer Enhancement */
+		.ori-footer-section {
+			background: linear-gradient(180deg, #0D0D0D 0%, #000000 100%);
+			border-top: 1px solid var(--modern-border);
+		}
+
+		.ori-footer-title h2 {
+			font-size: clamp(32px, 4vw, 42px);
+			font-weight: 800;
+		}
+
+		.ori-footer-title h2 span {
+			background: linear-gradient(135deg, #FF7425 0%, #63DAD9 100%);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			background-clip: text;
+		}
+
+		/* Smooth Scroll */
+		html {
+			scroll-behavior: smooth;
+		}
+
+		/* Responsive Improvements */
+		@media (max-width: 768px) {
+			.ori-mission-title-text {
+				padding: 30px 20px;
+				margin-bottom: 30px;
+			}
+
+			.ori-mission-section {
+				padding: 60px 0;
+			}
+
+			.ori-about-play-area {
+				height: 300px;
+			}
+		}
+
+		/* Animation Improvements */
+		@keyframes fadeInUp {
+			from {
+				opacity: 0;
+				transform: translateY(30px);
+			}
+			to {
+				opacity: 1;
+				transform: translateY(0);
+			}
+		}
+
+		.ori-mission-title-text,
+		.ori-about-play-area {
+			animation: fadeInUp 0.6s ease-out;
+		}
+	</style>
+</head>
+<body class="ori-inner-page">
+	<div id="preloader"></div>
+	<div class="up">
+		<a href="#" class="scrollup text-center"><i class="fas fa-chevron-up"></i></a>
+	</div>
+<!-- Start of header section
+	============================================= -->
+	<header id="ori-header" class="ori-header-section header-style-one">
+		<div class="ori-header-content-area">
+			<div class="ori-header-content d-flex align-items-center justify-content-between">
+				<div class="brand-logo">
+					<a href="#"><img src="assets/img/logo/logo1.png" alt=""></a>
+				</div>
+				<div class="ori-main-navigation-area">
+					<nav class="ori-main-navigation clearfix ul-li">
+						<ul id="main-nav" class="nav navbar-nav clearfix">
+							<li><a  href="index.html#ori-slider-1">Home</a></li>
+							<li><a  href="index.html#ori-service-1">profile</a></li>
+							<li><a  href="product.html">Products</a></li>
+							<li><a  href="index.html#ori-testimonial-1">Testimonial</a></li>
+							<li><a  href="contact.html">Contact Us</a></li>
+						</ul>
+					</nav>
+				</div>
+				
+			</div>
+			<div class="mobile_menu position-relative">
+				<div class="mobile_menu_button open_mobile_menu">
+					<i class="fal fa-bars"></i>
+				</div>
+				<div class="mobile_menu_wrap">
+					<div class="mobile_menu_overlay open_mobile_menu"></div>
+					<div class="mobile_menu_content">
+						<div class="mobile_menu_close open_mobile_menu">
+							<i class="fal fa-times"></i>
+						</div>
+						<div class="m-brand-logo">
+							<a  href="%21.html#"><img src="assets/img/logo/logo1.png" alt=""></a>
+						</div>
+						<nav class="mobile-main-navigation  clearfix ul-li">
+							<ul id="m-main-nav" class="nav navbar-nav clearfix">
+								<li><a  href="index.html #ori-slider-1">Home</a></li>
+							<li><a  href="index.html #ori-service-1">profile</a></li>
+							<li><a  href="product.html">Products</a></li>
+							<li><a  href="index.html #ori-testimonial-1">Testimonial</a></li>
+							<li><a  href="contact.html">Contact Us</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+				<!-- /Mobile-Menu -->
+			</div>
+		</div>
+	</header>
+<!-- End of header section
+	============================================= -->
+
+<!-- Start of Breadcrumbs  section
+	============================================= -->
+	<section id="ori-breadcrumbs" class="ori-breadcrumbs-section position-relative" data-background="assets/img/bg/bread-bg.png">
+		<div class="container">
+			<div class="ori-breadcrumb-content text-center ul-li">
+				<h1>Our Mission</h1>
+				<ul>
+					<li><a href="index.html">Samruddhi Enterprise</a></li>
+					<li>Our Mission</li>
+				</ul>
+			</div>
+		</div>
+		<div class="line_animation">
+			<div class="line_area"></div>
+			<div class="line_area"></div>
+			<div class="line_area"></div>
+			<div class="line_area"></div>
+			<div class="line_area"></div>
+			<div class="line_area"></div>
+			<div class="line_area"></div>
+			<div class="line_area"></div> 
+		</div>
+	</section>	
+<!-- End of Breadcrumbs section
+	============================================= -->
+
+<!-- Start of Mission Accordion  section
+	============================================= -->
+	<section id="ori-mission" class="ori-mission-section position-relative">
+		<div class="container">
+			<div class="ori-mission-content">
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="ori-mission-title-text">
+							<div class="ori-inner-section-title">
+								<h2>Exceptional, aesthetic, functional door handles</h2>
+								<p>To craft exceptional door handles that eleate both aesthetics and functionality, enhancing the experience of opening and closing doors.</p>
+							</div>
+							<div class="ori-btn-1 text-uppercase">
+								<a href="product.html">View Products</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="ori-about-play-area position-relative">
+							<div class="ori-about-play-img">
+								<img src="assets/img/about/v-play.png" alt="">
+							</div>
+							<div class="about-play-btn position-absolute" style="display: none;">
+								<a class="text-uppercase video_box d-flex align-items-center justify-content-center" href=""></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="line_animation">
+			<div class="line_area"></div>
+			<div class="line_area"></div>
+			<div class="line_area"></div>
+			<div class="line_area"></div>
+			<div class="line_area"></div>
+			<div class="line_area"></div>
+			<div class="line_area"></div>
+			<div class="line_area"></div>
+		</div>
+	</section>
+<!-- End of Mission Accordion  section
+	============================================= -->
+<!-- Start of Sponsor section
+	============================================= -->
+	<section id="ori-sponsor-1" class="ori-sponsor-section-1 inner-sponsor position-relative">
+		<div class="container">
+			<div class="ori-sponsor-title text-uppercase text-center">
+				<h3><i></i> <span>Trusted by</span> <i></i> </h3>
+			</div>
+			<div class="ori-sponsor-content">
+				<div class="ori-sponsor-slider">
+					<div class="ori-sponsor-item">
+						<div class="ori-sponsor-img">
+							<a href="#">
+								<img src="assets/img/sponsor/sp1.png" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="ori-sponsor-item">
+						<div class="ori-sponsor-img">
+							<a href="#">
+								<img src="assets/img/sponsor/sp2.png" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="ori-sponsor-item">
+						<div class="ori-sponsor-img">
+							<a href="#">
+								<img src="assets/img/sponsor/sp3.png" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="ori-sponsor-item">
+						<div class="ori-sponsor-img">
+							<a href="#">
+								<img src="assets/img/sponsor/sp4.png" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="ori-sponsor-item">
+						<div class="ori-sponsor-img">
+							<a href="#">
+								<img src="assets/img/sponsor/sp5.png" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><br><br><br>
+		<div class="container">
+			<div class="ori-sponsor-content">
+				<div class="ori-sponsor-slider">
+					<div class="ori-sponsor-item">
+						<div class="ori-sponsor-img">
+							<a href="#">
+								<img src="assets/img/sponsor/sp9.png" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="ori-sponsor-item">
+						<div class="ori-sponsor-img">
+							<a href="#">
+								<img src="assets/img/sponsor/sp6.png" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="ori-sponsor-item">
+						<div class="ori-sponsor-img">
+							<a href="#">
+								<img src="assets/img/sponsor/sp7.png" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="ori-sponsor-item">
+						<div class="ori-sponsor-img">
+							<a href="#">
+								<img src="assets/img/sponsor/sp8.png" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="ori-sponsor-item">
+						<div class="ori-sponsor-img">
+							<a href="#">
+								<img src="assets/img/sponsor/sp10.png" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><br><br><br>
+		<div class="container">
+			<div class="ori-sponsor-content">
+				<div class="ori-sponsor-slider">
+					<div class="ori-sponsor-item">
+						<div class="ori-sponsor-img">
+							<a href="#">
+								<img src="assets/img/sponsor/sp11.png" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="ori-sponsor-item">
+						<div class="ori-sponsor-img">
+							<a href="#">
+								<img src="assets/img/sponsor/sp12.png" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="ori-sponsor-item">
+						<div class="ori-sponsor-img">
+							<a href="#">
+								<img src="assets/img/sponsor/sp13.png" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="ori-sponsor-item">
+						<div class="ori-sponsor-img">
+							<a href="#">
+								<img src="assets/img/sponsor/sp14.png" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="ori-sponsor-item">
+						<div class="ori-sponsor-img">
+							<a href="#">
+								<img src="assets/img/sponsor/sp16.png" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="line_animation">
+			<div class="line_area"></div>
+			<div class="line_area"></div>
+			<div class="line_area"></div>
+			<div class="line_area"></div>
+			<div class="line_area"></div>
+			<div class="line_area"></div>
+			<div class="line_area"></div>
+			<div class="line_area"></div>
+		</div>
+	</section>				
+<!-- End of Sponsor section
+	============================================= -->			
+
+<!-- Start of Footer section
+	============================================= -->
+	<footer id="ori-footer" class="ori-footer-section footer-style-one">
+		<div class="container">
+			<div class="ori-footer-title text-center text-uppercase">
+				<h2>Get In <span>Touch</span> <i class="fas fa-arrow-right"></i></h2>
+			</div>
+			<div class="ori-footer-widget-wrapper">
+				<div class="row">
+					<div class="col-lg-3 col-md-6">
+						<div class="ori-footer-widget">
+							<div class="logo-widget">
+								
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="ori-footer-widget">
+							<div class="menu-location-widget ul-li-block">
+								<h2 class="widget-title text-uppercase">Our Location</h2>
+								<ul>
+									<li><a href="#">Kaveri layout, Vajarahalli, Nelamangala, Bangalore,
+										Karnataka – 562123</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="ori-footer-widget">
+							<div class="contact-widget ul-li-block">
+								<h2 class="widget-title text-uppercase">Contact info</h2>
+								<div class="contact-info">
+									<span>Phone: +91 9900454111 / 9036111365</span>
+									<span>Mail: samruddhi.575@gmail.com</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="ori-footer-widget">
+							<div class="menu-location-widget ul-li-block">
+								<h2 class="widget-title text-uppercase">Quick Links</h2>
+								<ul>
+									<li><a href="/terms&conditions.html">Terms & Conditions</a></li>
+									<li><a href="/privacypolicy.html">Privacy Policy</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<div class="ori-footer-copyright text-center">
+				<span>© 2025 Samruddhi Enterprises. All rights reserved.</span>
+			</div>
+		</div>
+	</footer>
+<!-- End of Footer section
+	============================================= -->		
+
+
+	<!-- For Js Library -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery-ui.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/popper.min.js"></script>
+	<script src="assets/js/appear.js"></script>
+	<script src="assets/js/slick.js"></script>
+	<script src="assets/js/twin.js"></script>
+	<script src="assets/js/wow.min.js"></script>
+	<script src="assets/js/knob.js"></script>
+	<script src="assets/js/jquery.filterizr.js"></script>
+	<script src="assets/js/imagesloaded.pkgd.min.js"></script>
+	<script src="assets/js/rbtools.min.js"></script>
+	<script src="assets/js/rs6.min.js"></script>
+	<script src="assets/js/jarallax.js"></script>
+	<script src="assets/js/jquery.inputarrow.js"></script>
+	<script src="assets/js/swiper.min.js"></script>
+	<script src="assets/js/jquery.counterup.min.js"></script>
+	<script src="assets/js/waypoints.min.js"></script>
+	<script src="assets/js/jquery.magnific-popup.min.js"></script>
+	<script src="assets/js/jquery.marquee.min.js"></script>
+	<script src="assets/js/script.js"></script>
+</body>
+</html>	

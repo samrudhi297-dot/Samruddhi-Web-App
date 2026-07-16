@@ -1,0 +1,24 @@
+[
+  {
+    "id": "blog-1",
+    "slug": "choosing-clean-room-door-seals",
+    "title": "Choosing the Right Clean Room Door Seals",
+    "excerpt": "A practical guide to selecting door seals for pharmaceutical and electronics clean rooms.",
+    "body": "Clean room door seals are critical for maintaining pressure differentials and preventing particle ingress. When selecting seals, consider material compatibility, compression set, and ease of replacement.\n\nSamruddhi Enterprises supplies a range of acoustic and clean room door seals tested for durability in high-traffic environments.",
+    "coverImage": "/assets/img/shop/shop1.png",
+    "published": true,
+    "publishedAt": "2025-11-01T09:00:00.000Z",
+    "createdAt": "2025-11-01T09:00:00.000Z"
+  },
+  {
+    "id": "blog-2",
+    "slug": "maintaining-interlocking-systems",
+    "title": "Maintaining Interlocking Door Systems",
+    "excerpt": "Best practices for keeping interlocking systems reliable in controlled environments.",
+    "body": "Interlocking systems ensure only one door is open at a time in critical zones. Regular inspection of sensors, actuators, and control panels helps avoid downtime.\n\nSchedule quarterly checks and keep spare parts for high-wear components.",
+    "coverImage": "/assets/img/shop/shop2.png",
+    "published": true,
+    "publishedAt": "2025-12-05T09:00:00.000Z",
+    "createdAt": "2025-12-05T09:00:00.000Z"
+  }
+]

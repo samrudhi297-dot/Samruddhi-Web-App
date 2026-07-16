@@ -1,0 +1,802 @@
+[
+  {
+    "name": "Acoustic Door Seal",
+    "slug": "Acoustic-Door-Seal",
+    "category": "seals",
+    "price": "₹68 / Meter",
+    "images": [
+      "/assets/img/shop/s2.png"
+    ],
+    "description": "Our acoustic seals provide an effective barrier to seal perimeter gaps around doors, restricting the passage of noise, smoke and air",
+    "specs": [
+      {
+        "key": "Ideal For",
+        "value": "Plastic"
+      },
+      {
+        "key": "Usage",
+        "value": "All"
+      },
+      {
+        "key": "Material",
+        "value": "Rubber"
+      },
+      {
+        "key": "Application",
+        "value": "All"
+      }
+    ]
+  },
+  {
+    "name": "Aluminium 3D Corner",
+    "slug": "Aluminium-3D-Corner",
+    "category": "hardware",
+    "price": "₹45 / Piece",
+    "images": [
+      "/assets/img/shop/s11.png"
+    ],
+    "description": "The Aluminium 3D Corner is a safety component made from aluminum with a metallic silver surface finish. It has a size of R50 and is used to protect corners and edges from damage.",
+    "specs": [
+      {
+        "key": "size",
+        "value": "r50"
+      },
+      {
+        "key": "material",
+        "value": "aluminium"
+      },
+      {
+        "key": "color",
+        "value": "metallic"
+      },
+      {
+        "key": "surface finishing",
+        "value": "silver"
+      }
+    ]
+  },
+  {
+    "name": "Aluminium Covering",
+    "slug": "Aluminium-Covering",
+    "category": "hardware",
+    "price": "₹320 / Meter",
+    "images": [
+      "/assets/img/shop/s12.png"
+    ],
+    "description": "The coving is precisely fabricated by our expert team using fine quality aluminum procured from trusted vendors. Along with its flexible, soft and smooth edges, it is high on demands. It allows perfect and hygienic connection to seal at passages of wall-to-ceiling, wall-to-wall and wall-to-floor.",
+    "specs": [
+      {
+        "key": "size",
+        "value": "R-50"
+      },
+      {
+        "key": "material",
+        "value": "aluminium"
+      },
+      {
+        "key": "usage",
+        "value": "paneling"
+      },
+      {
+        "key": "coverge area",
+        "value": "customized"
+      },
+      {
+        "key": "grade standard",
+        "value": "all"
+      }
+    ]
+  },
+  {
+    "name": "Automatic Drop Down Seal",
+    "slug": "Automatic-Drop-Down-Seal",
+    "category": "seals",
+    "price": "₹900 / Piece",
+    "images": [
+      "/assets/img/shop/s8.png"
+    ],
+    "description": "Automatic drop down seal is a specialised door sealing device commonly used ti provide an effective seal the gap between the door and the threshold when the door is closed, and retract back up when the door is opened, allowing for smooth clearance.",
+    "specs": [
+      {
+        "key": "minimum order quantity",
+        "value": "10 piece"
+      },
+      {
+        "key": "size",
+        "value": "35mm"
+      },
+      {
+        "key": "material",
+        "value": "Aluminium and EPDM materials"
+      },
+      {
+        "key": "door type",
+        "value": "manual"
+      }
+    ]
+  },
+  {
+    "name": "Concealed Drop Seal",
+    "slug": "Concealed-Drop-Seal",
+    "category": "seals",
+    "price": "₹950 / piece",
+    "images": [
+      "/assets/img/shop/s16.png"
+    ],
+    "description": "Concealed drop seals used for low width. We deal a wide range of drop seal products with the best price in market.",
+    "specs": [
+      {
+        "key": "minimum order quantity",
+        "value": "10"
+      },
+      {
+        "key": "material",
+        "value": "metal"
+      },
+      {
+        "key": "door type",
+        "value": "manual"
+      },
+      {
+        "key": "finish type",
+        "value": "silver"
+      }
+    ]
+  },
+  {
+    "name": "Concealed flush bolt",
+    "slug": "Concealed-Flush-Bolt",
+    "category": "hardware",
+    "price": "₹260 / Piece",
+    "images": [
+      "/assets/img/shop/s5.png"
+    ],
+    "description": "Door hardware component designed to secure the inactive leaf of a pair of double doors by latching it to the frame or floor discreetly, providing a clean and unobtrusive appearance when not in use.",
+    "specs": [
+      {
+        "key": "Feature",
+        "value": "suitable for door fitting"
+      },
+      {
+        "key": "finish type",
+        "value": "steel"
+      },
+      {
+        "key": "material",
+        "value": "stainless steel"
+      },
+      {
+        "key": "rod thickness",
+        "value": "8mm"
+      },
+      {
+        "key": "size",
+        "value": "standard"
+      },
+      {
+        "key": "color",
+        "value": "metallic"
+      },
+      {
+        "key": "surface finishing",
+        "value": "golden"
+      },
+      {
+        "key": "delivery time",
+        "value": "7 days"
+      }
+    ]
+  },
+  {
+    "name": "D shape rubber seal",
+    "slug": "D-Shaped-Rubber-Seal",
+    "category": "seals",
+    "price": "₹65 / piece",
+    "images": [
+      "/assets/img/shop/s6.png"
+    ],
+    "description": "D shaped rubber seal is a type of sealing gasket or strip that features a cross-sectional shape resembling the letter \"D\". It is commonly used in various applications to create a reliable seal between two surfaces. The D shape design provides specific advantages, making it suitable for different sealing needs.",
+    "specs": [
+      {
+        "key": "Ideal For",
+        "value": "pharma company"
+      },
+      {
+        "key": "minimum order quantity",
+        "value": "10 piece"
+      },
+      {
+        "key": "size",
+        "value": "1mm, 1.2mm, 0.8meters"
+      },
+      {
+        "key": "material",
+        "value": "aluminium with EPDM rubber"
+      },
+      {
+        "key": "color",
+        "value": "brown"
+      }
+    ]
+  },
+  {
+    "name": "Door Seal",
+    "slug": "Door-Bottom-Seal",
+    "category": "seals",
+    "price": "₹100 / meter",
+    "images": [
+      "/assets/img/shop/s14.png"
+    ],
+    "description": "Seals designed to fill the gap between the bottom of a door and the floor underneath, are referred to as door bottom seals. Common forms comprise sweep seals that have an aluminium holder with a flexible strip of rubber or brush strip mounted to the door bottom.",
+    "specs": [
+      {
+        "key": "Ideal For",
+        "value": "weather strip"
+      },
+      {
+        "key": "minimum order quantity",
+        "value": "10 meter"
+      },
+      {
+        "key": "size",
+        "value": "1 meter"
+      },
+      {
+        "key": "material",
+        "value": "EPDM rubber"
+      },
+      {
+        "key": "color",
+        "value": "black"
+      }
+    ]
+  },
+  {
+    "name": "Door Interlocking System",
+    "slug": "Door-Interlocking-System",
+    "category": "interlocking",
+    "price": "₹9000 / piece",
+    "images": [
+      "/assets/img/shop/s17.png"
+    ],
+    "description": "The Door Interlocking System, model \"Indoor Lock,\" is made of stainless steel, featuring an auto-push access method and a 2 to 3 door interlock mechanism.",
+    "specs": [
+      {
+        "key": "usage",
+        "value": "Pharma"
+      },
+      {
+        "key": "access method",
+        "value": "auto push"
+      },
+      {
+        "key": "material",
+        "value": "stainless steel"
+      },
+      {
+        "key": "lock type",
+        "value": "2,3 door interlock"
+      },
+      {
+        "key": "finish type",
+        "value": "stainless steel"
+      },
+      {
+        "key": "model name",
+        "value": "indoor lock"
+      }
+    ]
+  },
+  {
+    "name": "Drop down door seal",
+    "slug": "Drop-Down-Door-Seal",
+    "category": "seals",
+    "price": "₹950 / piece",
+    "images": [
+      "/assets/img/shop/s15.png"
+    ],
+    "description": "Drop-down door seal for weatherstripping. Installs at door bottom, seals tightly when closed, retracts when opened. Enhances energy efficiency and comfort.",
+    "specs": [
+      {
+        "key": "finish type",
+        "value": "silver"
+      },
+      {
+        "key": "material",
+        "value": "aluminium"
+      },
+      {
+        "key": "application",
+        "value": "pharma door"
+      }
+    ]
+  },
+  {
+    "name": "External Drop Seal",
+    "slug": "External-Drop-Seal",
+    "category": "seals",
+    "price": "₹1,450 / meter",
+    "images": [
+      "/assets/img/shop/s13.png"
+    ],
+    "description": "With the valuable assistance of skilled team of professionals, we are engaged in providing a qualitative range of External Drop Seal. The offered product is broadly used to seal air leaks on moveable components of home, like windows, doors, and attic access points. This product supports in locking all leakage points and holes of the interiors. Under the stern vigilance of our adroit quality experts, this product is stringently tested on diverse quality parameters to assure its quality. An automatic drop seal with a high efficiency mechanism which is self leveling when activated. It is adjustable to suit the gap size needed and will not only act as an acoustic barrier but also to maintain the authenticity of the area . <br><br>Key Benefits: <ul> <li>Sound reduction</li> <li>Protects against smoke</li> <li> Light-weight operation</li> <li> Self Levelling</li> <li> Surface Mounted (Retro Fit)</li> <li> Ultra-Soft Silicon Bubble</li> <li> Spring Loaded (no power is required)</li> <li> Tested for reliability, the seal completed 1,000,000 cycles without failure.</li> </ul> Seal Material: <ul> <li> Gasket: Light grey</li> <li>Holder: Satin anodised</li> <li> Cover: Silver anodised</li></ul> Min / Max Drop: 1 MM / 13 MM<br> Fixing: Fixing screws are supplied, holes should be drilled at time of fixing. <br>Adjustment: Self levelling on uneven surfaces can be adjusted independently of the fixing screws. <br>Finishes: Silver anodised aluminum cover plate, grey silicone rubber Gasket",
+    "specs": [
+      {
+        "key": "finish type",
+        "value": "silver"
+      },
+      {
+        "key": "material",
+        "value": "aluminium"
+      },
+      {
+        "key": "application",
+        "value": "pharma"
+      }
+    ]
+  },
+  {
+    "name": "Nylon brush seal",
+    "slug": "Nylon-Brush-Seal",
+    "category": "seals",
+    "price": "₹200 / Piece",
+    "images": [
+      "/assets/img/shop/s10.png"
+    ],
+    "description": "A type of door seal commonly used for various applications, including doors, windows, and other openings. It is made from durable nylon bristles that are attached to a metal or plastic holder. Nylon brush seals are designed to create a flexible barrier that effectively seals gaps, prevents the entry of drafts, dust, insects, and other external elements, and provides a smooth, frictionless surface for doors or windows to move against.",
+    "specs": [
+      {
+        "key": "bristle material",
+        "value": "nylon"
+      },
+      {
+        "key": "size",
+        "value": "standard"
+      },
+      {
+        "key": "material",
+        "value": "Aluminium structures and Nylon bristles"
+      },
+      {
+        "key": "color",
+        "value": "black"
+      },
+      {
+        "key": "bristle length",
+        "value": "11-20mm"
+      },
+      {
+        "key": "bristles stiffness",
+        "value": "hard"
+      }
+    ]
+  },
+  {
+    "name": "Pass Box Controller",
+    "slug": "Pass-Box-Controller",
+    "category": "pass-box",
+    "price": "₹6000 / piece",
+    "images": [
+      "/assets/img/shop/s18.png"
+    ],
+    "description": "The Pass Box Controller is a lockable device used to control access to pass boxes, ensuring secure and regulated transfer processes.",
+    "specs": [
+      {
+        "key": "usage",
+        "value": "pass box controller"
+      },
+      {
+        "key": "access method",
+        "value": "auto push"
+      },
+      {
+        "key": "material",
+        "value": "stainless steel"
+      },
+      {
+        "key": "lock type",
+        "value": "2,3 door interlock"
+      },
+      {
+        "key": "finish type",
+        "value": "stainless steel"
+      },
+      {
+        "key": "model name",
+        "value": "indoor lock"
+      }
+    ]
+  },
+  {
+    "name": "PVC door seal",
+    "slug": "PVC-Door-Seal",
+    "category": "seals",
+    "price": "₹175 / Piece",
+    "images": [
+      "/assets/img/shop/s9.png"
+    ],
+    "description": "It is a type of weatherstripping or gasket used to seal the gaps around the edges of a door. It is made from Polyvinyl Chloride, a synthetic plastic material known for its durability, flexibility, and resistance to weathering. PVC door seals are commonly used in both interior qand exterior doors to provide an effective barrier against drafts, moisture, dust, insects and noise.",
+    "specs": [
+      {
+        "key": "Ideal For",
+        "value": "plastic"
+      },
+      {
+        "key": "usage",
+        "value": "industrial"
+      },
+      {
+        "key": "size",
+        "value": "standard"
+      },
+      {
+        "key": "material",
+        "value": "pvc"
+      },
+      {
+        "key": "color",
+        "value": "transparent"
+      }
+    ]
+  },
+  {
+    "name": "SAM12FL",
+    "slug": "SAM12FL",
+    "category": "doors",
+    "price": "Get Quotation",
+    "images": [
+      "/assets/img/shop/s25.png"
+    ],
+    "description": "An adjustable, automatic door bottom seal that is spring loaded to lift clear of the floor when the door is opened. Acoustically designed, featuring extruded silicon gaskets for medium temperature smoke applications. It is operated automatically by pressure on the door jamb by its adjustable strike. It is self levelling.",
+    "specs": [
+      {
+        "key": "size",
+        "value": "1500mm, 1220mm, 1070mm, 920mm, 820mm, 600mm to 305mm(min). Seals cut back to exact size."
+      },
+      {
+        "key": "Finish",
+        "value": "Satin clear (silver) or black anodised aluminium (15µm)."
+      },
+      {
+        "key": "Location",
+        "value": "Fully morticed into the bottom of single and double solid core butt hinged doors (minimum door thickness of 40mm). For double doors, plain meeting stiles are required. Can also be fitted into the bottom rail of a metal door by the fabricator."
+      },
+      {
+        "key": "Min/Max Gap",
+        "value": "3mm to 14mm."
+      },
+      {
+        "key": "Fixing",
+        "value": "Screw fix. Colour matched escutcheon plates and zinc plated, cross recess head S.T. screws supplied."
+      },
+      {
+        "key": "Seal",
+        "value": "Black Silicon Rubber (SE)."
+      }
+    ]
+  },
+  {
+    "name": "SAM14FL",
+    "slug": "SAM14FL",
+    "category": "doors",
+    "price": "Get Quotation",
+    "images": [
+      "/assets/img/shop/s24.png"
+    ],
+    "description": "An adjustable, automatic door bottom seal that is spring loaded to lift clear of the floor when the door is opened. Acoustically designed, featuring extruded silicon gaskets for medium temperature smoke applications. It is operated automatically by pressure on the door jamb by its adjustable strike. It is self levelling.",
+    "specs": [
+      {
+        "key": "size",
+        "value": "1500mm, 1220mm, 1070mm, 920mm, 820mm, 600mm to 305mm(min). Seals cut back to exact size."
+      },
+      {
+        "key": "Finish",
+        "value": "Satin clear (silver) or black anodised aluminium (15µm)."
+      },
+      {
+        "key": "Location",
+        "value": "Fully morticed into the bottom of single and double solid core butt hinged doors (minimum door thickness of 40mm). For double doors, plain meeting stiles are required. Can also be fitted into the bottom rail of a metal door by the fabricator."
+      },
+      {
+        "key": "Min/Max Gap",
+        "value": "3mm to 14mm."
+      },
+      {
+        "key": "Fixing",
+        "value": "Screw fix. Colour matched escutcheon plates and zinc plated, cross recess head S.T. screws supplied."
+      },
+      {
+        "key": "Seal",
+        "value": "Black Silicon Rubber (SE)."
+      }
+    ]
+  },
+  {
+    "name": "SAM14N",
+    "slug": "SAM14N",
+    "category": "doors",
+    "price": "Get Quotation",
+    "images": [
+      "/assets/img/shop/s19.png"
+    ],
+    "description": "SAM14N is a concealed automatic door bottom seal that is spring loaded to lift clear of the floor when the door is opened. Acoustically designed the seal has a silicon gasket with an intumescent insert for maximum fire protection at the door bottom. Ideal for Fire Engineered applications. Suitable for fire rated doors, solid core timber doors and hollow bottom rail metal doors. SAM14N operates automatically by pressure against the door jamb on its adjustable strike. The seal has a level adjustment to achieve an optimum seal.",
+    "specs": [
+      {
+        "key": "size",
+        "value": "1070mm, 920mm, 820mm to 600mm(min). Seals cut back to exact size."
+      },
+      {
+        "key": "Min/Max Gap",
+        "value": "3mm to 13mm."
+      },
+      {
+        "key": "Finish",
+        "value": "Satin clear (silver) anodised aluminium (15µm)."
+      },
+      {
+        "key": "Location",
+        "value": "Fully Morticed into a 15mm x 34mm groove into the bottom of single and double butt hinged timber or metal doors."
+      },
+      {
+        "key": "Fixing",
+        "value": "Concealed screw fix with colour matched stainless steel escutcheon plates and screws supplied."
+      },
+      {
+        "key": "Seal",
+        "value": "Grey silicon rubber (SE)."
+      }
+    ]
+  },
+  {
+    "name": "SAM14SM",
+    "slug": "SAM14SM",
+    "category": "doors",
+    "price": "Get Quotation",
+    "images": [
+      "/assets/img/shop/s23.png"
+    ],
+    "description": "A heavy duty, adjustable, automatic door bottom seal that is spring loaded to lift clear of the floor when the door is opened. Acoustically designed, with a silicon gasket for medium temperature smoke applications. Operated automatically by pressure on the door jamb or stop by its adjustable strike. Includes aluminium cover for concealed fixing for face mounted installation.",
+    "specs": [
+      {
+        "key": "size",
+        "value": "1220mm, 1070mm, 920mm, 820mm, 720mm, 600mm, 380mm to 295mm(min). Seals cut back to exact size."
+      },
+      {
+        "key": "Finish",
+        "value": "Satin clear (silver), bronze anodised aluminium (15µm) or paint at extra cost."
+      },
+      {
+        "key": "Location",
+        "value": "Face mounted, semi-morticed or fully morticed into single and double solid core butt hinged doors. Can be fitted into the bottom rail of metal doors by the fabricator. Minimum door thickness of 40mm for semi and fully morticed installations. For double door fully morticed installations, plain meeting stiles required."
+      },
+      {
+        "key": "Min/Max Gap",
+        "value": "3mm to 19mm."
+      },
+      {
+        "key": "Fixing",
+        "value": "Concealed screw fix. Zinc plated, cross recess head S.T. screws supplied. Colour matched escutcheon plates and face mount aluminium angle included."
+      },
+      {
+        "key": "Seal",
+        "value": "Black Silicon Rubber (SE)."
+      }
+    ]
+  },
+  {
+    "name": "SAM30C",
+    "slug": "SAM30C",
+    "category": "doors",
+    "price": "Get Quotation",
+    "images": [
+      "/assets/img/shop/s21.png"
+    ],
+    "description": "A concealed, automatic door bottom seal to suit medium temperature smoke and energy door seal applications. SAM30C features twin silicon bulb gaskets and is spring loaded to lift clear of the floor as soon as the door leaf is opened by a few millimetres. Mounted into the bottom hollow rail of metal doors, the seal is operated automatically by pressure against the door jamb on its adjustable strike block.",
+    "specs": [
+      {
+        "key": "size",
+        "value": "1350mm, 1220mm, 920mm to 600mm (min). Seals cut back to exact size."
+      },
+      {
+        "key": "Min/Max Gap",
+        "value": "3mm to 12mm."
+      },
+      {
+        "key": "Finish",
+        "value": "Satin clear (silver) anodised aluminium (15µm)."
+      },
+      {
+        "key": "Location",
+        "value": "Concealed in the bottom of single and double aluminium or metal clad butt hinged doors."
+      },
+      {
+        "key": "Fixing",
+        "value": "Concealed screw fix. Colour matched escutcheon plate and zinc plated, cross recess head S.T. screws supplied."
+      },
+      {
+        "key": "Seal",
+        "value": "Black silicon rubber (SE)."
+      }
+    ]
+  },
+  {
+    "name": "SAM35C",
+    "slug": "SAM35C",
+    "category": "doors",
+    "price": "Get Quotation",
+    "images": [
+      "/assets/img/shop/s20.png"
+    ],
+    "description": "A concealed, automatic door bottom seal to suit medium temperature smoke and energy door seal applications. SAM35C features twin silicon bulb gaskets and is spring loaded to lift clear of the floor as soon as the door leaf is opened by a few millimetres. Mounted into the bottom hollow rail of metal doors, the seal is operated automatically by pressure against the door jamb on its adjustable strike block.",
+    "specs": [
+      {
+        "key": "size",
+        "value": "1350mm, 1220mm, 920mm to 600mm (min). Seals cut back to exact size."
+      },
+      {
+        "key": "Min/Max Gap",
+        "value": "3mm to 12mm."
+      },
+      {
+        "key": "Finish",
+        "value": "Satin clear (silver) anodised aluminium (15µm)."
+      },
+      {
+        "key": "Location",
+        "value": "Concealed in the bottom of single and double aluminium or metal clad butt hinged doors."
+      },
+      {
+        "key": "Fixing",
+        "value": "Concealed screw fix. Colour matched escutcheon plate and zinc plated, cross recess head S.T. screws supplied."
+      },
+      {
+        "key": "Seal",
+        "value": "Black silicon rubber (SE)."
+      }
+    ]
+  },
+  {
+    "name": "SAM74",
+    "slug": "SAM74",
+    "category": "doors",
+    "price": "Get Quotation",
+    "images": [
+      "/assets/img/shop/s22.png"
+    ],
+    "description": "A nylon brush strip seal with a self adhesive aluminium holder. Mounted to the inside or outside door head and bottom face, SAM74 provides a very neat sealing solution with the advantage of final on site installation which overcomes unforeseen floor or sill variation. Used in conjunction with Raven threshold plates.",
+    "specs": [
+      {
+        "key": "size",
+        "value": "Available in stock lengths."
+      },
+      {
+        "key": "Finish",
+        "value": "Satin clear (silver), bronze anodised aluminium (15µm) or paint at extra cost."
+      },
+      {
+        "key": "Location",
+        "value": "Frames or bottoms of single, double, sliding and double acting doors. Suitable for hard, flat surfaces."
+      },
+      {
+        "key": "Min/Max Gap",
+        "value": "Up to 13mm (user determined)."
+      },
+      {
+        "key": "Fixing",
+        "value": "Self adhesive or can be screw fixed. Note: Contact surface must be clean, smooth and if painted, well cured. Self adhesive seals will not adhere to oiled or alkyd finishes or to easy clean wash and wear paint surfaces."
+      },
+      {
+        "key": "Seal",
+        "value": "Black fine, dense, UV stabilised nylon filaments."
+      }
+    ]
+  },
+  {
+    "name": "SS Flush Bolt",
+    "slug": "SS-Flush-Bolt",
+    "category": "hardware",
+    "price": "₹350 / Piece",
+    "images": [
+      "/assets/img/shop/s7.png"
+    ],
+    "description": "A flush bolt is a type of door bolt commonly used on double doors, especially pairs of French doors or closet doors, to secure the inactive leaf. The flush bolt is designed to be installed into the edge or surface of the door, creating a clean and flush appearance when the door is closed .",
+    "specs": [
+      {
+        "key": "Feature",
+        "value": "Suitable For Door Fitting"
+      },
+      {
+        "key": "Packaging Size",
+        "value": "<10 piece"
+      },
+      {
+        "key": "size",
+        "value": "standard"
+      },
+      {
+        "key": "color",
+        "value": "metallic"
+      },
+      {
+        "key": "Delivery Time",
+        "value": "7 days"
+      }
+    ]
+  },
+  {
+    "name": "SSD Door Handle",
+    "slug": "SSD-Door-Handle",
+    "category": "hardware",
+    "price": "₹380 / Piece",
+    "images": [
+      "/assets/img/shop/s3.png"
+    ],
+    "description": "The SSD Door Handle is a 250mm stainless steel pull handle, specifically designed for door fitting, providing a sleek and functional addition to any door.",
+    "specs": [
+      {
+        "key": "Usage",
+        "value": "Door fitting"
+      },
+      {
+        "key": "Finish type",
+        "value": "Stainless style"
+      },
+      {
+        "key": "size/dimension",
+        "value": "250mm"
+      },
+      {
+        "key": "Handle type",
+        "value": "Pull handle"
+      }
+    ]
+  },
+  {
+    "name": "TDF Duct corner",
+    "slug": "TDF-Duct-Corner",
+    "category": "hardware",
+    "price": "₹10 / piece",
+    "images": [
+      "/assets/img/shop/s1.png"
+    ],
+    "description": "TDF duct corner connects rectangular ducts at right angles, enabling efficient airflow; durable, cost-effective HVAC solution.",
+    "specs": [
+      {
+        "key": "Usage",
+        "value": "Industrial"
+      },
+      {
+        "key": "Shape",
+        "value": "Rectangular"
+      },
+      {
+        "key": "Material",
+        "value": "Air conditioning"
+      },
+      {
+        "key": "Application",
+        "value": "Ventialtion"
+      }
+    ]
+  },
+  {
+    "name": "Tear Door Seal",
+    "slug": "Tear-Door-Seal",
+    "category": "seals",
+    "price": "₹130 / Meter",
+    "images": [
+      "/assets/img/shop/s4.png"
+    ],
+    "description": "They are used to prevent noise, vibrations, and weather elements from entering the room. They help maintain controlled environments and keep out contaminants .",
+    "specs": [
+      {
+        "key": "door thickness",
+        "value": "12mm"
+      },
+      {
+        "key": "material",
+        "value": "silicon"
+      }
+    ]
+  }
+]

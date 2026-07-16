@@ -1,0 +1,22 @@
+[
+  {
+    "id": "res-1",
+    "title": "Product Catalogue (PDF)",
+    "description": "Download our full product catalogue with specifications and pricing guidance.",
+    "fileUrl": "/catalogues/samruddhi-product-catalogue.pdf",
+    "category": "catalogue",
+    "sortOrder": 1,
+    "published": true,
+    "createdAt": "2025-01-01T09:00:00.000Z"
+  },
+  {
+    "id": "res-2",
+    "title": "Clean Room Door Specification Sheet",
+    "description": "Technical specifications for standard clean room door configurations.",
+    "fileUrl": "/assets/img/shop/shop3.png",
+    "category": "specification",
+    "sortOrder": 2,
+    "published": true,
+    "createdAt": "2025-02-01T09:00:00.000Z"
+  }
+]

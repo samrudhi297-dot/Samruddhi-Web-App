@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Samruddhi Enterprises - Clean Room Doors</title>
+	<link rel="shortcut icon" href="assets/img/logo/ficon.png" type="image/x-icon">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/fontawesome-all.css">
+	<link rel="stylesheet" href="assets/css/animate.css">
+	<link rel="stylesheet" href="assets/css/video.min.css">
+	<link rel="stylesheet" href="assets/css/slick-theme.css">
+	<link rel="stylesheet" href="assets/css/slick.css">
+	<link rel="stylesheet" href="assets/css/global.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<style>
+		/* Modern Design Enhancements */
+		:root {
+			--modern-primary: #FF7425;
+			--modern-secondary: #1a1a1a;
+			--modern-accent: #63DAD9;
+			--modern-text: #e0e0e0;
+			--modern-bg: #0D0D0D;
+			--modern-card-bg: rgba(255, 255, 255, 0.03);
+			--modern-border: rgba(255, 255, 255, 0.1);
+		}
+
+		/* Hero Section Modernization */
+		.ori-slider-section-1 {
+			background: linear-gradient(135deg, #0D0D0D 0%, #1a1a1a 50%, #0D0D0D 100%);
+			position: relative;
+			overflow: hidden;
+		}
+
+		.ori-slider-section-1::before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			background: radial-gradient(circle at 30% 50%, rgba(255, 116, 37, 0.1) 0%, transparent 50%),
+						radial-gradient(circle at 70% 50%, rgba(99, 218, 217, 0.08) 0%, transparent 50%);
+			pointer-events: none;
+		}
+
+		.ori-slider-text h1 {
+			background: linear-gradient(135deg, #ffffff 0%, #FF7425 100%);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			background-clip: text;
+			font-size: clamp(48px, 8vw, 96px);
+			font-weight: 800;
+			letter-spacing: -2px;
+			margin-bottom: 30px;
+			line-height: 1.1;
+			text-transform: none;
+		}
+
+		.hero-subtitle {
+			margin: 20px 0 40px;
+		}
+
+		.hero-subtitle p {
+			font-size: clamp(20px, 3vw, 28px);
+			color: var(--modern-accent);
+			font-weight: 600;
+			letter-spacing: 1px;
+			margin: 0;
+		}
+
+		.ori-slider-text h6 {
+			font-size: clamp(16px, 2vw, 20px);
+			line-height: 1.8;
+			color: var(--modern-text);
+			font-weight: 400;
+			max-width: 900px;
+			margin: 0 auto;
+			text-transform: none;
+			letter-spacing: 0.3px;
+		}
+
+		/* Service Cards Modernization */
+		.ori-service-inner-item {
+			background: var(--modern-card-bg);
+			backdrop-filter: blur(10px);
+			border: 1px solid var(--modern-border);
+			transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+			overflow: hidden;
+			position: relative;
+		}
+
+		.ori-service-inner-item::before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: -100%;
+			width: 100%;
+			height: 100%;
+			background: linear-gradient(90deg, transparent, rgba(255, 116, 37, 0.1), transparent);
+			transition: left 0.6s;
+		}
+
+		.ori-service-inner-item:hover::before {
+			left: 100%;
+		}
+
+		.ori-service-inner-item:hover {
+			transform: translateY(-10px);
+			border-color: rgba(255, 116, 37, 0.3);
+			box-shadow: 0 20px 40px rgba(255, 116, 37, 0.15),
+						0 0 0 1px rgba(255, 116, 37, 0.1);
+		}
+
+		.ori-service-img {
+			transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+		}
+
+		.ori-service-inner-item:hover .ori-service-img {
+			transform: scale(1.05);
+		}
+
+		.ori-service-title h3 {
+			background: linear-gradient(135deg, #ffffff 0%, #FF7425 100%);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			background-clip: text;
+			font-size: 24px;
+			font-weight: 700;
+			transition: all 0.3s ease;
+		}
+
+		.ori-service-inner-item:hover .ori-service-title h3 {
+			transform: translateX(5px);
+		}
+
+		.ori-service-more {
+			opacity: 0;
+			transform: translateY(-50%) scale(0.8);
+			transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+		}
+
+		.ori-service-inner-item:hover .ori-service-more {
+			opacity: 1;
+			transform: translateY(-50%) scale(1);
+		}
+
+		.ori-service-more a {
+			width: 60px;
+			height: 60px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			background: linear-gradient(135deg, #FF7425 0%, #ff8c42 100%);
+			border-radius: 50%;
+			color: #fff;
+			font-size: 20px;
+			box-shadow: 0 10px 30px rgba(255, 116, 37, 0.4);
+			transition: all 0.3s ease;
+		}
+
+		.ori-service-more a:hover {
+			transform: scale(1.1) rotate(45deg);
+			box-shadow: 0 15px 40px rgba(255, 116, 37, 0.6);
+		}
+
+		/* Section Title Modernization */
+		.ori-section-title-1 h2 {
+			font-size: clamp(36px, 5vw, 56px);
+			font-weight: 800;
+			letter-spacing: -1px;
+			line-height: 1.2;
+		}
+
+		.ori-section-title-1 h2 span {
+			background: linear-gradient(135deg, #FF7425 0%, #63DAD9 100%);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			background-clip: text;
+		}
+
+		/* Sponsor Section Enhancement */
+		.ori-sponsor-section-1 {
+			background: linear-gradient(180deg, #171717 0%, #0D0D0D 100%);
+		}
+
+		.ori-sponsor-item {
+			opacity: 0.6;
+			transition: all 0.3s ease;
+			filter: grayscale(100%);
+		}
+
+		.ori-sponsor-item:hover {
+			opacity: 1;
+			filter: grayscale(0%);
+			transform: scale(1.05);
+		}
+
+		.ori-sponsor-title h3 {
+			font-size: clamp(20px, 3vw, 28px);
+			font-weight: 600;
+			letter-spacing: 1px;
+		}
+
+		.ori-sponsor-title h3 span {
+			color: var(--modern-accent);
+		}
+
+		/* Testimonial Section Modernization */
+		.ori-testimonial-section-1 {
+			background: linear-gradient(135deg, #0D0D0D 0%, #1a1a1a 100%);
+		}
+
+		.ori-testimonial-item-1 {
+			background: var(--modern-card-bg);
+			backdrop-filter: blur(10px);
+			border: 1px solid var(--modern-border);
+			border-radius: 20px;
+			padding: 40px;
+			transition: all 0.4s ease;
+		}
+
+		.ori-testimonial-item-1:hover {
+			border-color: rgba(255, 116, 37, 0.3);
+			box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+			transform: translateY(-5px);
+		}
+
+		.ori-testimonial-text p {
+			font-size: 18px;
+			line-height: 1.8;
+			color: var(--modern-text);
+			font-style: italic;
+			position: relative;
+			padding: 20px 0;
+		}
+
+		.ori-testimonial-text p::before {
+			content: '"';
+			font-size: 80px;
+			position: absolute;
+			top: -20px;
+			left: -10px;
+			color: rgba(255, 116, 37, 0.2);
+			font-family: Georgia, serif;
+		}
+
+		.ori-testimonial-author h4 {
+			color: #fff;
+			font-size: 20px;
+			font-weight: 700;
+			margin-bottom: 5px;
+		}
+
+		.ori-testimonial-author span {
+			color: var(--modern-accent);
+			font-size: 14px;
+			text-transform: none;
+		}
+
+		.ori-testimonial-title h3 {
+			font-size: clamp(36px, 5vw, 48px);
+			font-weight: 800;
+			background: linear-gradient(135deg, #ffffff 0%, #FF7425 100%);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			background-clip: text;
+		}
+
+		/* Footer Enhancement */
+		.ori-footer-section {
+			background: linear-gradient(180deg, #0D0D0D 0%, #000000 100%);
+			border-top: 1px solid var(--modern-border);
+		}
+
+		.ori-footer-title h2 {
+			font-size: clamp(32px, 4vw, 42px);
+			font-weight: 800;
+		}
+
+		.ori-footer-title h2 span {
+			background: linear-gradient(135deg, #FF7425 0%, #63DAD9 100%);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			background-clip: text;
+		}
+
+		/* Smooth Scroll */
+		html {
+			scroll-behavior: smooth;
+		}
+
+		/* Responsive Improvements */
+		@media (max-width: 768px) {
+			.ori-service-section-1 {
+				padding: 0px 20px;
+			}
+
+			.ori-service-wrapper-1 {
+				padding: 100px 0px 80px;
+			}
+
+			.ori-slider-text {
+				padding: 0 20px;
+			}
+		}
+
+		/* Animation Improvements */
+		@keyframes fadeInUp {
+			from {
+				opacity: 0;
+				transform: translateY(30px);
+			}
+			to {
+				opacity: 1;
+				transform: translateY(0);
+			}
+		}
+
+		.ori-service-inner-item,
+		.ori-testimonial-item-1 {
+			animation: fadeInUp 0.6s ease-out;
+		}
+	</style>
+</head>
+<body class="ori-digital-studio">
+	<div id="preloader"></div>
+	<div class="up">
+		<a href="#" class="scrollup text-center"><i class="fas fa-chevron-up"></i></a>
+	</div>
+	<header id="ori-header" class="ori-header-section header-style-one">
+		<div class="ori-header-content-area">
+			<div class="ori-header-content d-flex align-items-center justify-content-between">
+				<div class="brand-logo">
+					<a href="#"><img src="assets/img/logo/logo1.png" alt=""></a>
+				</div>
+				<div class="ori-main-navigation-area">
+					<nav class="ori-main-navigation  clearfix ul-li">
+						<ul id="main-nav" class="nav navbar-nav clearfix">
+							<li><a  href="#ori-slider-1">Home</a></li>
+							<li><a  href="about.html">About</a></li>
+							<li><a  href="product.html">Products</a></li>
+							<li><a  href="#ori-testimonial-1">Testimonials</a></li>
+							<li><a  href="contact.html">Contact Us</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<div class="mobile_menu position-relative">
+				<div class="mobile_menu_button open_mobile_menu">
+					<i class="fal fa-bars"></i>
+				</div>
+				<div class="mobile_menu_wrap">
+					<div class="mobile_menu_overlay open_mobile_menu"></div>
+					<div class="mobile_menu_content">
+						<div class="mobile_menu_close open_mobile_menu">
+							<i class="fal fa-times"></i>
+						</div>
+						<div class="m-brand-logo">
+							<a  href="%21.html#"><img src="assets/img/logo/logo1.png" alt=""></a>
+						</div>
+						<nav class="mobile-main-navigation  clearfix ul-li">
+							<ul id="m-main-nav" class="nav navbar-nav clearfix">
+								<li><a  href="#ori-slider-1">Home</a></li>
+							<li><a  href="about.html">About</a></li>
+							<li><a  href="product.html">Products</a></li>
+							<li><a  href="#ori-testimonial-1">Testimonials</a></li>
+							<li><a  href="contact.html">Contact Us</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+				<!-- /Mobile-Menu -->
+			</div>
+		</div>
+	</header><!-- /header -->
+
+	
+	<!-- Sidebar sidebar Item -->
+	<div class="xs-sidebar-group info-group">
+		<div class="xs-overlay xs-bg-black">
+			<div class="row loader-area">
+				<div class="col-3 preloader-wrap">
+					<div class="loader-bg"></div>
+				</div>
+				<div class="col-3 preloader-wrap">
+					<div class="loader-bg"></div>
+				</div>
+				<div class="col-3 preloader-wrap">
+					<div class="loader-bg"></div>
+				</div>
+				<div class="col-3 preloader-wrap">
+					<div class="loader-bg"></div>
+				</div>
+			</div>
+		</div>
+		<div class="xs-sidebar-widget">
+			<div class="sidebar-widget-container">
+				<div class="widget-heading">
+					<a href="#" class="close-side-widget">
+						
+					</a>
+				</div>
+				<div class="sidebar-textwidget">
+
+					<div class="sidebar-info-contents headline pera-content">
+						<div class="content-inner">
+							<div class="logo">
+								<a href="index.html"><img src="assets/img/logo/logo1.png" alt=""></a>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- End of header section
+	============================================= -->
+
+<!-- Start of Slider section
+	============================================= -->
+	<section id="ori-slider-1" class="ori-slider-section-1 se-premium-hero position-relative">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-6">
+					<span class="se-eyebrow">Pharmaceutical clean room solutions</span>
+					<h1>Samruddhi <span>Enterprises</span></h1>
+					<p class="se-hero-lead">Leading clean room doors, seals and hardware for pharmaceutical and life-science facilities — built for contamination control and compliance.</p>
+					<ul class="se-hero-list">
+						<li>Compliant with clean room airflow &amp; access requirements</li>
+						<li>Supply, installation guidance &amp; after-sales support</li>
+						<li>Based in Bangalore — projects pan-India</li>
+					</ul>
+					<div class="se-hero-actions">
+						<a href="contact.html" class="se-btn-primary">Get a Quote</a>
+						<a href="product.html" class="se-btn-secondary">View Products</a>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="se-hero-card">
+						<img src="assets/img/landing/hero-product.png" alt="Samruddhi Enterprises clean room door seal and aluminium profile">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="se-trust-bar">
+			<div class="container">
+				<div class="se-trust-stats">
+					<div class="se-stat"><strong>15+</strong><span>Years experience</span></div>
+					<div class="se-stat"><strong>500+</strong><span>Clients served</span></div>
+					<div class="se-stat"><strong>25+</strong><span>Product lines</span></div>
+					<div class="se-stat"><strong>24hr</strong><span>Quote response</span></div>
+				</div>
+			</div>
+		</div>
+	</section>
+<!-- End of Slider section
+	============================================= -->
+
+<!-- Start of Service section
+	============================================= -->
+	<section id="ori-service-1" class="ori-service-section-1">
+		<div class="ori-service-wrapper-1">
+			<div class="container">
+				<div class="ori-service-top-content-1 d-flex justify-content-between align-items-center">
+					<div class="ori-section-title-1 text-uppercase wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
+						<h2>Company <span> Profile</span></h2>
+					</div>
+				</div>
+				<div class="ori-service-content-1">
+					<div class="row">
+						<div class="col-lg-4 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+							<div class="ori-service-inner-item position-relative">
+								<div class="ori-service-more position-absolute">
+									<a href="about.html"><i class="fas fa-arrow-right"></i></a>
+								</div>
+								<div class="ori-service-img-title position-relative">
+									<div class="ori-service-img">
+										<img src="assets/img/service/ser1.png" alt="">
+									</div>
+									<div class="ori-service-title text-center position-absolute">
+										<h3>About us  <i class="fal fa-arrow-right"></i></h3>
+									</div> 
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
+							<div class="ori-service-inner-item position-relative">
+								<div class="ori-service-more position-absolute">
+									<a href="mission.html"><i class="fas fa-arrow-right"></i></a>
+								</div>
+								<div class="ori-service-img-title position-relative">
+									<div class="ori-service-img">
+										<img src="assets/img/service/ser2.png" alt="">
+									</div>
+									<div class="ori-service-title text-center position-absolute">
+										<h3>Our Mission  <i class="fal fa-arrow-right"></i></h3>
+									</div> 
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1500ms">
+							<div class="ori-service-inner-item position-relative">
+								<div class="ori-service-more position-absolute">
+									<a href="product.html"><i class="fas fa-arrow-right"></i></a>
+								</div>
+								<div class="ori-service-img-title position-relative">
+									<div class="ori-service-img">
+										<img src="assets/img/service/ser3.png" alt="">
+									</div>
+									<div class="ori-service-title text-center position-absolute">
+										<h3>Products  <i class="fal fa-arrow-right"></i></h3>
+									</div> 
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<!-- End of Service section
+	============================================= -->
+
+<!-- Start of Sponsor section
+	============================================= -->
+	<section id="ori-sponsor-1" class="ori-sponsor-section-1 se-trust-marquee position-relative">
+		<div class="container">
+			<div class="ori-sponsor-title text-center">
+				<h3>Trusted by <span>leading pharmaceutical brands</span></h3>
+			</div>
+			<div class="ori-sponsor-content se-marquee-wrap">
+				<div class="se-marquee" aria-label="Client logos">
+					<div class="se-marquee-track">
+						<img src="assets/img/sponsor/sp1.png" alt="Anthem Bio">
+						<img src="assets/img/sponsor/sp2.png" alt="Ansell">
+						<img src="assets/img/sponsor/sp3.png" alt="Biocon">
+						<img src="assets/img/sponsor/sp4.png" alt="Strides">
+						<img src="assets/img/sponsor/sp5.png" alt="Philips">
+						<img src="assets/img/sponsor/sp6.png" alt="Tata">
+						<img src="assets/img/sponsor/sp7.png" alt="Syngene">
+						<img src="assets/img/sponsor/sp8.png" alt="AstraZeneca">
+						<img src="assets/img/sponsor/sp9.png" alt="Himalaya">
+						<img src="assets/img/sponsor/sp10.png" alt="Allergan">
+						<img src="assets/img/sponsor/sp11.png" alt="Apotex">
+						<img src="assets/img/sponsor/sp12.png" alt="Bluefish">
+						<img src="assets/img/sponsor/sp13.png" alt="Citropharm">
+						<img src="assets/img/sponsor/sp14.png" alt="Cipla">
+						<img src="assets/img/sponsor/sp16.png" alt="ICON">
+						<img src="assets/img/sponsor/sp1.png" alt="" aria-hidden="true">
+						<img src="assets/img/sponsor/sp2.png" alt="" aria-hidden="true">
+						<img src="assets/img/sponsor/sp3.png" alt="" aria-hidden="true">
+						<img src="assets/img/sponsor/sp4.png" alt="" aria-hidden="true">
+						<img src="assets/img/sponsor/sp5.png" alt="" aria-hidden="true">
+						<img src="assets/img/sponsor/sp6.png" alt="" aria-hidden="true">
+						<img src="assets/img/sponsor/sp7.png" alt="" aria-hidden="true">
+						<img src="assets/img/sponsor/sp8.png" alt="" aria-hidden="true">
+						<img src="assets/img/sponsor/sp9.png" alt="" aria-hidden="true">
+						<img src="assets/img/sponsor/sp10.png" alt="" aria-hidden="true">
+						<img src="assets/img/sponsor/sp11.png" alt="" aria-hidden="true">
+						<img src="assets/img/sponsor/sp12.png" alt="" aria-hidden="true">
+						<img src="assets/img/sponsor/sp13.png" alt="" aria-hidden="true">
+						<img src="assets/img/sponsor/sp14.png" alt="" aria-hidden="true">
+						<img src="assets/img/sponsor/sp16.png" alt="" aria-hidden="true">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<!-- End of Sponsor section
+	============================================= -->
+
+
+
+
+<!-- Start of Testimonial section
+	============================================= -->
+	<section id="ori-testimonial-1" class="ori-testimonial-section-1 position-relative">
+		<div class="ori-vector-bg position-absolute wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+			<img src="assets/img/vector/tst-vector1.png" alt="">
+		</div>
+		<div class="container">
+			<div class="ori-testimonial-content-1 position-relative">
+				<div class="ori-testimonial-title text-center text-uppercase">
+					<h3>What our Clients say</h3>
+				</div>
+				<div class="ori-testimonial-slider-1">
+					<div class="ori-testimonial-item-area">
+						<div class="ori-testimonial-item-1">
+							<div class="ori-testimonial-text text-center pera-content">
+								<p>We would have no hesitation in recommending Samruddhi Enterprises, doing great job. Thank you so much..</p>
+								<div class="ori-testimonial-author text-center text-uppercase">
+									<h4>Pranjit Borah</h4>
+									<span>Bangalore</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="ori-testimonial-item-area">
+						<div class="ori-testimonial-item-1">
+							<div class="ori-testimonial-text text-center pera-content">
+								<p>
+									The job was done on time and on budget and we are extremely happy with the end result which continues to get numerous praises from our neighbors and passers by.
+								</p>
+								<div class="ori-testimonial-author text-center text-uppercase">
+									<h4>Pallavi Baruah</h4>
+									<span>Bangalore</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="ori-testimonial-item-area">
+						<div class="ori-testimonial-item-1">
+							<div class="ori-testimonial-text text-center pera-content">
+								<p>
+									We were extremely impressed with the quality of the workmanship and the level of professionalism displayed by Samruddhi Enterprises and the team at our premises.
+								</p>
+								<div class="ori-testimonial-author text-center text-uppercase">
+									<h4>Sujit Thakur</h4>
+									<span>Bangalore</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="carousel_nav">
+					<button type="button" class="testi-left_arrow"><img src="assets/img/vector/prev.png" alt=""></button>
+					<button type="button" class="testi-right_arrow"><img src="assets/img/vector/next.png" alt=""></button>
+				</div>
+			</div>
+		</div>
+		<div class="line_animation">
+			<div class="line_area"></div>
+			<div class="line_area"></div>
+			<div class="line_area"></div>
+			<div class="line_area"></div>
+			<div class="line_area"></div>
+			<div class="line_area"></div>
+			<div class="line_area"></div>
+			<div class="line_area"></div>
+		</div>
+	</section>				
+<!-- End of Testimonial section
+	============================================= -->	 
+
+<!-- Lead form -->
+	<section id="ori-contact-form" class="ori-contact-form-section position-relative">
+		<div class="loading-modal" id="loadingModal"><div class="loading-spinner"></div></div>
+		<div class="container">
+			<div class="ori-contact-form-content">
+				<div class="row justify-content-center">
+					<div class="col-lg-8">
+						<div class="ori-section-title-1 text-center text-uppercase wow fadeInUp">
+							<h2>Get a <span>Quote</span></h2>
+						</div>
+						<div class="ori-contact-form-wrap">
+							<form action="send.php" method="post">
+								<label>Name *</label>
+								<input type="text" name="name" style="color: aliceblue" required />
+								<label>Email *</label>
+								<input type="email" name="email" style="color: aliceblue" required />
+								<label>Phone Number *</label>
+								<input type="tel" name="phone" style="color: aliceblue" required />
+								<label>Message *</label>
+								<textarea name="message" style="color: aliceblue" required></textarea>
+								<button type="submit" onclick="submitForm()">Submit enquiry</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<!-- Start of Footer section
+	============================================= -->
+	<footer id="ori-footer" class="ori-footer-section footer-style-one">
+		<div class="container">
+			<div class="ori-footer-title text-center text-uppercase">
+				<h2>Get In <span>Touch</span> <i class="fas fa-arrow-right"></i></h2>
+			</div>
+			<div class="ori-footer-widget-wrapper">
+				<div class="row">
+					<div class="col-lg-3 col-md-6">
+						<div class="ori-footer-widget">
+							<div class="logo-widget">
+								
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="ori-footer-widget">
+							<div class="menu-location-widget ul-li-block">
+								<h2 class="widget-title text-uppercase">Our Location</h2>
+								<ul>
+									<li><a href="#">Kaveri layout, Vajarahalli, Nelamangala, Bangalore,
+										Karnataka – 562123</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="ori-footer-widget">
+							<div class="contact-widget ul-li-block">
+								<h2 class="widget-title text-uppercase">Contact info</h2>
+								<div class="contact-info">
+									<span>Phone: +91 9900454111 / 9036111365</span>
+									<span>Mail: samruddhi.575@gmail.com</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="ori-footer-widget">
+							<div class="menu-location-widget ul-li-block">
+								<h2 class="widget-title text-uppercase">Quick Links</h2>
+								<ul>
+									<li><a href="/terms&conditions.html">Terms & Conditions</a></li>
+									<li><a href="/privacypolicy.html">Privacy Policy</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<div class="ori-footer-copyright text-center">
+				<span>© 2025 Samruddhi Enterprises. All rights reserved.</span>
+			</div>
+		</div>
+	</footer>
+<!-- End of Footer section
+	============================================= -->		
+
+	<!-- For Js Library -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery-ui.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/popper.min.js"></script>
+	<script src="assets/js/appear.js"></script>
+	<script src="assets/js/slick.js"></script>
+	<script src="assets/js/twin.js"></script>
+	<script src="assets/js/wow.min.js"></script>
+	<script src="assets/js/knob.js"></script>
+	<script src="assets/js/jquery.filterizr.js"></script>
+	<script src="assets/js/imagesloaded.pkgd.min.js"></script>
+	<script src="assets/js/rbtools.min.js"></script>
+	<script src="assets/js/rs6.min.js"></script>
+	<script src="assets/js/jarallax.js"></script>
+	<script src="assets/js/jquery.inputarrow.js"></script>
+	<script src="assets/js/swiper.min.js"></script>
+	<script src="assets/js/jquery.counterup.min.js"></script>
+	<script src="assets/js/waypoints.min.js"></script>
+	<script src="assets/js/jquery.magnific-popup.min.js"></script>
+	<script src="assets/js/jquery.marquee.min.js"></script>
+	<script src="assets/js/script.js"></script>
+</body>
+</html>			

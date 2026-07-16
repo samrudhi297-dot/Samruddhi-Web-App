@@ -1,0 +1,422 @@
+/* Samruddhi Enterprises — Premium UI Phase 2 */
+
+/* ─── Product detail pages ─── */
+.se-product-detail.ori-shop-details-section {
+  background: var(--se-bg) !important;
+  padding: 48px 0 80px !important;
+}
+
+.se-product-detail .ori-shop-details-text-wrapper {
+  background: var(--se-white);
+  border: 1px solid var(--se-border);
+  border-radius: var(--se-radius);
+  padding: 32px;
+  box-shadow: 0 8px 32px rgba(15, 20, 25, 0.08);
+}
+
+.se-product-detail .ori-shop-details-title h3 {
+  font-family: var(--se-font);
+  font-size: clamp(24px, 3vw, 32px);
+  font-weight: 800;
+  color: var(--se-navy);
+  text-transform: none !important;
+}
+
+.se-product-detail .ori-shop-details-title .pro_price {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 6px 14px;
+  border-radius: 50px;
+  background: rgba(255, 116, 37, 0.12);
+  color: var(--se-orange) !important;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.se-product-detail .ori-shop-details-desc {
+  color: var(--se-slate);
+  font-size: 16px;
+  line-height: 1.7;
+  margin: 20px 0;
+}
+
+.se-product-detail .ori-shop-details-slider-wrapper {
+  background: var(--se-white);
+  border: 1px solid var(--se-border);
+  border-radius: var(--se-radius);
+  padding: 16px;
+  box-shadow: 0 8px 32px rgba(15, 20, 25, 0.08);
+}
+
+.se-product-detail .ori-shop-details-slide-for .slider-inner-img img {
+  border-radius: 10px;
+  background: #f1f5f9;
+}
+
+.se-specs-wrap {
+  margin-top: 24px;
+}
+
+.se-specs-wrap h4 {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--se-navy);
+  margin: 0 0 12px;
+  text-transform: none;
+}
+
+.se-specs-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.se-specs-table th,
+.se-specs-table td {
+  border: 1px solid var(--se-border);
+  padding: 10px 14px;
+  text-align: left;
+}
+
+.se-specs-table th {
+  width: 38%;
+  background: #f8fafc;
+  color: var(--se-slate);
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.se-specs-table td {
+  color: var(--se-navy);
+  font-weight: 500;
+}
+
+.se-product-quote-box {
+  margin-top: 28px;
+  padding: 24px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #0f1419 0%, #1a2836 100%);
+  color: #fff;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .se-product-quote-box {
+    position: sticky;
+    top: 24px;
+  }
+}
+
+.se-product-quote-label {
+  margin: 0 0 14px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.se-product-quote-note {
+  margin: 12px 0 0;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.se-product-phone {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 14px;
+  color: var(--se-teal) !important;
+  font-weight: 600;
+  text-decoration: none !important;
+}
+
+.se-product-detail .ori-shop-related-product {
+  margin-top: 56px;
+}
+
+.se-product-detail .ori-shop-related-product h3,
+.se-section-subtitle {
+  font-family: var(--se-font);
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--se-navy);
+  text-transform: none !important;
+  margin-bottom: 24px;
+}
+
+.se-product-detail .ori-shop-inner-item {
+  background: var(--se-white) !important;
+  border: 1px solid var(--se-border) !important;
+  border-radius: var(--se-radius) !important;
+}
+
+/* ─── About / Mission value cards ─── */
+.se-why-pharma {
+  padding: 72px 0;
+  background: #111;
+}
+
+.se-mission-values {
+  margin-top: 48px;
+}
+
+.se-section-heading {
+  max-width: 680px;
+  margin: 0 auto 40px;
+}
+
+.se-section-heading h2 {
+  font-size: clamp(26px, 4vw, 36px);
+  font-weight: 800;
+  color: #fff;
+  margin: 12px 0;
+}
+
+.se-section-heading p {
+  color: rgba(255, 255, 255, 0.72);
+  margin: 0;
+  font-size: 17px;
+}
+
+.se-why-pharma .se-section-heading h2,
+.se-why-pharma .se-section-heading p {
+  color: #fff;
+}
+
+.se-value-card {
+  height: 100%;
+  padding: 28px 24px;
+  border-radius: var(--se-radius);
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: transform 0.25s ease, border-color 0.25s ease;
+}
+
+.se-value-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(255, 116, 37, 0.35);
+}
+
+.se-value-icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  background: rgba(255, 116, 37, 0.15);
+  color: var(--se-orange);
+  font-size: 22px;
+  margin-bottom: 16px;
+}
+
+.se-value-card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 10px;
+  text-transform: none !important;
+}
+
+.se-value-card p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 1.65;
+  font-size: 15px;
+}
+
+#ori-mission .se-value-card {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+/* ─── Testimonials Phase 2 ─── */
+.ori-testimonial-section-1 .ori-testimonial-slider-1 .slick-slide > div {
+  display: flex;
+  justify-content: center;
+}
+
+.ori-testimonial-section-1 .ori-testimonial-item-area {
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.se-testimonial-card.ori-testimonial-item-1 {
+  background: rgba(255, 255, 255, 0.04) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 20px !important;
+  padding: 40px 32px !important;
+  margin: 0 auto !important;
+  width: 100%;
+  max-width: 760px;
+}
+
+.se-testimonial-card .ori-testimonial-text {
+  text-align: center;
+}
+
+.se-stars {
+  color: #fbbf24;
+  font-size: 18px;
+  letter-spacing: 3px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.ori-testimonial-section-1 .ori-testimonial-text p::before {
+  left: 50%;
+  transform: translateX(-50%);
+  top: -28px;
+}
+
+.ori-testimonial-section-1 .ori-testimonial-author {
+  text-align: center;
+}
+
+.ori-testimonial-section-1 .slick-dots {
+  position: relative;
+  bottom: auto;
+  margin-top: 28px;
+  display: flex !important;
+  justify-content: center;
+  gap: 8px;
+  list-style: none;
+  padding: 0;
+}
+
+.ori-testimonial-section-1 .slick-dots li button {
+  width: 10px;
+  height: 10px;
+  padding: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.25);
+  border: none;
+  font-size: 0;
+}
+
+.ori-testimonial-section-1 .slick-dots li.slick-active button {
+  background: var(--se-orange);
+  width: 28px;
+  border-radius: 50px;
+}
+
+.ori-testimonial-section-1 .ori-testimonial-item-1 p {
+  font-size: clamp(20px, 2.8vw, 28px) !important;
+  font-style: italic;
+  text-align: center;
+}
+
+.ori-testimonial-section-1 .ori-testimonial-author h4 {
+  color: #fff !important;
+  text-transform: none !important;
+  letter-spacing: 0 !important;
+}
+
+.ori-testimonial-section-1 .ori-testimonial-author span {
+  color: var(--se-orange) !important;
+  text-transform: none !important;
+}
+
+/* ─── Footer Phase 2 ─── */
+.se-footer-enhanced .ori-footer-title {
+  margin-bottom: 40px;
+}
+
+.se-footer-brand img {
+  height: 44px;
+  width: auto;
+  margin-bottom: 16px;
+  background: #000;
+  padding: 8px 12px;
+  border-radius: 10px;
+}
+
+.se-footer-brand p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  line-height: 1.65;
+  margin: 0;
+  max-width: 280px;
+}
+
+.se-footer-heading {
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 16px;
+  text-transform: none !important;
+  letter-spacing: 0.02em;
+}
+
+.se-footer-links,
+.se-footer-contact {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.se-footer-links li,
+.se-footer-contact li {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.se-footer-links a,
+.se-footer-contact a {
+  color: rgba(255, 255, 255, 0.85) !important;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.se-footer-links a:hover,
+.se-footer-contact a:hover {
+  color: var(--se-teal) !important;
+}
+
+.se-footer-contact i {
+  color: var(--se-orange);
+  width: 18px;
+  margin-right: 8px;
+}
+
+.se-footer-map-link {
+  display: inline-block;
+  margin-top: 12px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--se-teal) !important;
+  text-decoration: none !important;
+}
+
+.se-footer-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.se-footer-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 9px 16px;
+  border-radius: 50px;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none !important;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff !important;
+}
+
+.se-footer-btn-whatsapp {
+  background: #25d366;
+}
+
+@media (max-width: 991px) {
+  .se-product-detail .ori-shop-details-text-wrapper {
+    margin-top: 24px;
+  }
+
+  .se-footer-brand {
+    margin-bottom: 28px;
+  }
+}

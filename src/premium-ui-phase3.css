@@ -1,0 +1,291 @@
+/* Samruddhi Enterprises — Premium UI Phase 3 (Enterprise polish) */
+
+/* ─── Page transitions ─── */
+.se-route-shell {
+  animation: sePageIn 0.32s ease-out both;
+}
+
+@keyframes sePageIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .se-route-shell {
+    animation: none;
+  }
+}
+
+/* ─── Skeleton loaders ─── */
+.se-page-skeleton {
+  min-height: 70vh;
+  padding: 48px 24px 80px;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.se-skeleton-block,
+.se-skeleton-stat,
+.se-skeleton-card {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.06) 0%,
+    rgba(255, 255, 255, 0.12) 50%,
+    rgba(255, 255, 255, 0.06) 100%
+  );
+  background-size: 200% 100%;
+  animation: seShimmer 1.4s ease-in-out infinite;
+  border-radius: var(--se-radius, 14px);
+}
+
+.se-skeleton-hero {
+  padding: 48px 32px;
+  margin-bottom: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.se-skeleton-line {
+  height: 14px;
+  border-radius: 8px;
+  margin-bottom: 14px;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.se-skeleton-line-lg {
+  width: 55%;
+  height: 28px;
+}
+
+.se-skeleton-line-md {
+  width: 80%;
+}
+
+.se-skeleton-line-sm {
+  width: 45%;
+  margin-bottom: 24px;
+}
+
+.se-skeleton-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.se-skeleton-pill {
+  width: 120px;
+  height: 44px;
+  border-radius: 50px;
+  background: rgba(255, 116, 37, 0.25);
+}
+
+.se-skeleton-pill-muted {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.se-skeleton-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.se-skeleton-stat {
+  height: 72px;
+}
+
+.se-skeleton-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.se-skeleton-card {
+  height: 220px;
+}
+
+@keyframes seShimmer {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .se-skeleton-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .se-skeleton-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ─── Certifications strip ─── */
+.se-certifications {
+  padding: 56px 0;
+  background: var(--se-white);
+  border-top: 1px solid var(--se-border);
+  border-bottom: 1px solid var(--se-border);
+}
+
+.se-certifications .se-section-heading h2 {
+  color: var(--se-navy);
+}
+
+.se-certifications .se-section-heading p {
+  color: var(--se-muted);
+}
+
+.se-cert-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.se-cert-badge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 24px 16px;
+  border-radius: var(--se-radius);
+  border: 1px solid var(--se-border);
+  background: var(--se-bg);
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.se-cert-badge:hover {
+  border-color: rgba(255, 116, 37, 0.35);
+  transform: translateY(-2px);
+}
+
+.se-cert-icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: rgba(99, 218, 217, 0.15);
+  color: var(--se-teal);
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.se-cert-badge h3 {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--se-navy);
+  margin: 0 0 6px;
+  text-transform: none !important;
+}
+
+.se-cert-badge p {
+  margin: 0;
+  font-size: 13px;
+  color: var(--se-muted);
+  line-height: 1.5;
+}
+
+/* ─── FAQ accordion ─── */
+.se-faq-section {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #0f1419 0%, #1a2836 100%);
+}
+
+.se-faq-section .se-section-heading h2 {
+  color: #fff;
+}
+
+.se-faq-section .se-section-heading p {
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.se-faq-list {
+  max-width: 820px;
+  margin: 0 auto;
+}
+
+.se-faq-item {
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 12px;
+  margin-bottom: 12px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.se-faq-question {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 18px 20px;
+  border: none;
+  background: transparent;
+  color: #fff;
+  font-family: var(--se-font);
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+  cursor: pointer;
+}
+
+.se-faq-question i {
+  color: var(--se-orange);
+  transition: transform 0.25s ease;
+  flex-shrink: 0;
+}
+
+.se-faq-item.is-open .se-faq-question i {
+  transform: rotate(180deg);
+}
+
+.se-faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.se-faq-item.is-open .se-faq-answer {
+  max-height: 280px;
+}
+
+.se-faq-answer p {
+  margin: 0;
+  padding: 0 20px 18px;
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+.se-faq-section--compact {
+  padding: 56px 0;
+}
+
+.se-faq-section--compact .se-faq-cta {
+  margin-top: 24px;
+}
+
+.se-faq-cta p {
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 14px;
+}
+
+@media (max-width: 991px) {
+  .se-cert-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 575px) {
+  .se-cert-grid {
+    grid-template-columns: 1fr;
+  }
+}

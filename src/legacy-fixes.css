@@ -1,0 +1,69 @@
+/* SPA fixes for legacy theme when slick/carousels initialize */
+
+#preloader {
+  display: none !important;
+}
+
+.ori-sponsor-slider:not(.slick-initialized) {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+
+.ori-sponsor-slider:not(.slick-initialized) .ori-sponsor-item {
+  flex: 0 1 140px;
+}
+
+.ori-sponsor-slider .ori-sponsor-img img {
+  max-height: 72px;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+.ori-shop-details-slide-for .slider-inner-img img,
+.ori-shop-inner-item .shop-img img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.ori-shop-details-slide-for:not(.slick-initialized) .slider-inner-img:not(:first-child) {
+  display: none;
+}
+
+.ori-shop-details-slide-for:not(.slick-initialized) .slider-inner-img:first-child {
+  display: block;
+}
+
+.ori-shop-details-slide-for:not(.slick-initialized) .slider-inner-img img {
+  width: 100%;
+  max-height: 480px;
+}
+
+/* Hero title: theme CSS expects slick-current on .ori-slider-content-1,
+   but Slick puts it on .slick-slide — h1 stays opacity:0 in the SPA */
+.ori-slider-wrap-1 .slick-slide.slick-current.slick-active .ori-slider-text h1,
+.ori-slider-wrap-1:not(.slick-initialized) .ori-slider-text h1 {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+
+/* Testimonial carousel: show one slide until Slick initializes */
+.ori-testimonial-slider-1:not(.slick-initialized) .ori-testimonial-item-area:not(:first-child) {
+  display: none !important;
+}
+
+.ori-testimonial-slider-1.slick-initialized .ori-testimonial-item-area {
+  display: block !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ori-testimonial-content-1 .carousel_nav {
+  position: relative;
+  z-index: 3;
+}

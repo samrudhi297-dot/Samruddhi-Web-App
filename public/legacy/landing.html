@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Clean Room Doors & Seals | Samruddhi Enterprises</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Pharmaceutical clean room doors, door seals, drop seals and contamination control solutions. Request a quote from Samruddhi Enterprises, Bangalore.">
+	<link rel="shortcut icon" href="assets/img/logo/ficon.png" type="image/x-icon">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/fontawesome-all.css">
+	<style>
+		:root {
+			--orange: #FF7425;
+			--orange-dark: #e5651c;
+			--teal: #0d7c7a;
+			--teal-light: #63DAD9;
+			--navy: #0f1419;
+			--slate: #3d4f5f;
+			--muted: #64748b;
+			--bg: #f8fafc;
+			--white: #ffffff;
+			--border: #e2e8f0;
+			--radius: 12px;
+			--shadow: 0 4px 24px rgba(15, 20, 25, 0.08);
+		}
+
+		* { box-sizing: border-box; }
+		html { scroll-behavior: smooth; }
+
+		body {
+			margin: 0;
+			font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+			color: var(--navy);
+			background: var(--bg);
+			line-height: 1.6;
+		}
+
+		/* Header */
+		.lp-header {
+			background: var(--white);
+			border-bottom: 1px solid var(--border);
+			padding: 14px 0;
+			position: sticky;
+			top: 0;
+			z-index: 100;
+		}
+
+		.lp-header .container {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			gap: 16px;
+		}
+
+		.lp-logo {
+			display: inline-flex;
+			align-items: center;
+			background: #000;
+			padding: 10px 14px;
+			border-radius: 10px;
+			box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+			text-decoration: none;
+		}
+
+		.lp-logo img { height: 40px; width: auto; display: block; }
+
+		.lp-header-cta {
+			display: flex;
+			align-items: center;
+			gap: 12px;
+			flex-wrap: wrap;
+		}
+
+		.lp-phone {
+			color: var(--slate);
+			font-size: 14px;
+			font-weight: 600;
+			text-decoration: none;
+		}
+
+		.lp-phone i { color: var(--orange); margin-right: 6px; }
+
+		.btn-primary-lp {
+			background: var(--orange);
+			color: var(--white) !important;
+			padding: 12px 24px;
+			border-radius: 8px;
+			font-weight: 600;
+			font-size: 15px;
+			text-decoration: none;
+			border: none;
+			cursor: pointer;
+			transition: background 0.2s;
+			display: inline-block;
+			box-shadow: 0 10px 22px rgba(255, 116, 37, 0.22);
+		}
+
+		.btn-primary-lp:hover { background: var(--orange-dark); }
+
+		/* Hero */
+		.lp-hero {
+			background: linear-gradient(135deg, #0f1419 0%, #1a2836 50%, #0f2027 100%);
+			color: var(--white);
+			padding: 64px 0 72px;
+			position: relative;
+			overflow: hidden;
+		}
+
+		.lp-hero .row { align-items: center; }
+
+		.lp-hero::before {
+			content: "";
+			position: absolute;
+			inset: 0;
+			background:
+				radial-gradient(900px 400px at 15% 25%, rgba(255, 116, 37, 0.18), transparent 55%),
+				radial-gradient(700px 320px at 85% 30%, rgba(99, 218, 217, 0.16), transparent 55%);
+			pointer-events: none;
+		}
+
+		.lp-hero .container { position: relative; z-index: 1; }
+
+		.lp-eyebrow {
+			display: inline-block;
+			background: rgba(99, 218, 217, 0.15);
+			color: var(--teal-light);
+			font-size: 13px;
+			font-weight: 600;
+			letter-spacing: 0.5px;
+			text-transform: uppercase;
+			padding: 6px 14px;
+			border-radius: 100px;
+			margin-bottom: 20px;
+		}
+
+		.lp-hero h1 {
+			font-size: clamp(32px, 5vw, 44px);
+			font-weight: 700;
+			line-height: 1.15;
+			margin: 0 0 20px;
+			letter-spacing: -0.5px;
+		}
+
+		.lp-hero h1 span { color: var(--orange); }
+
+		.lp-hero-lead {
+			font-size: 18px;
+			color: rgba(255, 255, 255, 0.85);
+			max-width: 520px;
+			margin-bottom: 28px;
+		}
+
+		.lp-hero-list {
+			list-style: none;
+			padding: 0;
+			margin: 0 0 32px;
+		}
+
+		.lp-hero-list li {
+			padding: 8px 0 8px 28px;
+			position: relative;
+			font-size: 16px;
+			color: rgba(255, 255, 255, 0.9);
+		}
+
+		.lp-hero-list li::before {
+			content: "✓";
+			position: absolute;
+			left: 0;
+			color: var(--teal-light);
+			font-weight: 700;
+		}
+
+		.lp-hero-img {
+			border-radius: var(--radius);
+			overflow: hidden;
+			box-shadow: 0 24px 48px rgba(0, 0, 0, 0.45);
+			background: #000;
+			border: 1px solid rgba(255, 255, 255, 0.08);
+		}
+
+		.lp-hero-img img {
+			width: 100%;
+			height: auto;
+			display: block;
+			object-fit: cover;
+		}
+
+		/* Trust bar */
+		.lp-trust {
+			background: var(--white);
+			padding: 28px 0;
+			border-bottom: 1px solid var(--border);
+		}
+
+		.lp-trust-stats {
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+			gap: 40px;
+			margin-bottom: 28px;
+		}
+
+		.lp-stat { text-align: center; }
+
+		.lp-stat strong {
+			display: block;
+			font-size: 28px;
+			color: var(--orange);
+			font-weight: 700;
+		}
+
+		.lp-stat span { font-size: 14px; color: var(--muted); }
+
+		.lp-logos {
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+			justify-content: center;
+			gap: 32px;
+			opacity: 0.75;
+		}
+
+		.lp-logos img {
+			height: 36px;
+			width: auto;
+			max-width: 120px;
+			object-fit: contain;
+			filter: grayscale(100%);
+		}
+
+		.lp-logos-label {
+			text-align: center;
+			font-size: 12px;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+			color: var(--muted);
+			margin-bottom: 16px;
+		}
+
+		/* Sections */
+		.lp-section {
+			padding: 72px 0;
+		}
+
+		.lp-section-alt { background: var(--white); }
+
+		.lp-section-title {
+			text-align: center;
+			max-width: 640px;
+			margin: 0 auto 48px;
+		}
+
+		.lp-section-title h2 {
+			font-size: clamp(28px, 4vw, 36px);
+			font-weight: 700;
+			margin: 0 0 12px;
+			color: var(--navy);
+		}
+
+		.lp-section-title p {
+			color: var(--muted);
+			font-size: 17px;
+			margin: 0;
+		}
+
+		/* Products */
+		.lp-product-card {
+			background: var(--white);
+			border: 1px solid var(--border);
+			border-radius: var(--radius);
+			overflow: hidden;
+			height: 100%;
+			transition: box-shadow 0.25s, transform 0.25s;
+		}
+
+		.lp-product-card:hover {
+			box-shadow: var(--shadow);
+			transform: translateY(-4px);
+		}
+
+		.lp-product-img {
+			background: linear-gradient(180deg, #f8fafc 0%, #eef2f7 100%);
+			padding: 24px;
+			height: 200px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.lp-product-img img {
+			max-height: 160px;
+			max-width: 100%;
+			object-fit: contain;
+		}
+
+		.lp-product-body { padding: 20px; }
+
+		.lp-product-body h3 {
+			font-size: 17px;
+			font-weight: 600;
+			margin: 0 0 8px;
+			color: var(--navy);
+		}
+
+		.lp-product-body p {
+			font-size: 14px;
+			color: var(--muted);
+			margin: 0;
+		}
+
+		/* Benefits */
+		.lp-benefit {
+			display: flex;
+			gap: 16px;
+			padding: 24px;
+			background: var(--white);
+			border: 1px solid var(--border);
+			border-radius: var(--radius);
+			height: 100%;
+		}
+
+		.lp-benefit-icon {
+			width: 48px;
+			height: 48px;
+			background: rgba(255, 116, 37, 0.1);
+			border-radius: 10px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			color: var(--orange);
+			font-size: 20px;
+			flex-shrink: 0;
+		}
+
+		.lp-benefit h3 {
+			font-size: 17px;
+			margin: 0 0 6px;
+			font-weight: 600;
+		}
+
+		.lp-benefit p {
+			font-size: 14px;
+			color: var(--muted);
+			margin: 0;
+		}
+
+		/* Form section */
+		.lp-form-section {
+			background: linear-gradient(180deg, #0f1419 0%, #1a2836 100%);
+			padding: 72px 0;
+			color: var(--white);
+		}
+
+		.lp-form-wrap {
+			background: var(--white);
+			border-radius: 16px;
+			padding: 40px;
+			color: var(--navy);
+			box-shadow: 0 24px 64px rgba(0, 0, 0, 0.2);
+		}
+
+		.lp-form-wrap h2 {
+			font-size: 26px;
+			font-weight: 700;
+			margin: 0 0 8px;
+		}
+
+		.lp-form-wrap .sub {
+			color: var(--muted);
+			margin-bottom: 28px;
+			font-size: 15px;
+		}
+
+		.lp-form-group { margin-bottom: 18px; }
+
+		.lp-form-group label {
+			display: block;
+			font-size: 13px;
+			font-weight: 600;
+			margin-bottom: 6px;
+			color: var(--slate);
+		}
+
+		.lp-form-group input,
+		.lp-form-group textarea,
+		.lp-form-group select {
+			width: 100%;
+			padding: 12px 14px;
+			border: 1px solid var(--border);
+			border-radius: 8px;
+			font-size: 16px;
+			font-family: inherit;
+			transition: border-color 0.2s;
+		}
+
+		.lp-form-group input:focus,
+		.lp-form-group textarea:focus,
+		.lp-form-group select:focus {
+			outline: none;
+			border-color: var(--orange);
+			box-shadow: 0 0 0 3px rgba(255, 116, 37, 0.15);
+		}
+
+		.lp-form-group textarea { min-height: 100px; resize: vertical; }
+
+		.lp-form-side h2 {
+			font-size: 32px;
+			font-weight: 700;
+			margin: 0 0 16px;
+			line-height: 1.2;
+		}
+
+		.lp-form-side p {
+			color: rgba(255, 255, 255, 0.8);
+			font-size: 17px;
+			margin-bottom: 24px;
+		}
+
+		.lp-contact-line {
+			display: flex;
+			align-items: center;
+			gap: 12px;
+			margin-bottom: 14px;
+			font-size: 15px;
+			color: rgba(255, 255, 255, 0.9);
+		}
+
+		.lp-contact-line i {
+			width: 36px;
+			height: 36px;
+			background: rgba(255, 116, 37, 0.2);
+			border-radius: 8px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			color: var(--orange);
+		}
+
+		.lp-contact-line a { color: inherit; text-decoration: none; }
+
+		/* Footer */
+		.lp-footer {
+			background: var(--navy);
+			color: rgba(255, 255, 255, 0.7);
+			padding: 24px 0;
+			font-size: 14px;
+			text-align: center;
+		}
+
+		.lp-footer a { color: var(--teal-light); }
+
+		@media (max-width: 991px) {
+			.lp-hero { padding: 48px 0; }
+			.lp-hero-img { margin-top: 40px; }
+			.lp-form-wrap { padding: 28px 20px; }
+			.lp-form-side { margin-bottom: 32px; text-align: center; }
+			.lp-contact-line { justify-content: center; }
+		}
+
+		@media (max-width: 576px) {
+			.lp-header-cta .lp-phone { display: none; }
+			.lp-trust-stats { gap: 24px; }
+		}
+	</style>
+</head>
+<body>
+
+	<header class="lp-header">
+		<div class="container">
+			<a href="index.html" class="lp-logo">
+				<img src="assets/img/logo/logo1.png" alt="Samruddhi Enterprises">
+			</a>
+			<div class="lp-header-cta">
+				<a class="lp-phone" href="tel:+919900454111"><i class="fas fa-phone"></i> +91 9900454111</a>
+				<a href="#quote" class="btn-primary-lp">Get a quote</a>
+			</div>
+		</div>
+	</header>
+
+	<section class="lp-hero">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<span class="lp-eyebrow">Pharmaceutical clean room solutions</span>
+					<h1>Clean room <span>doors & seals</span> built for contamination control</h1>
+					<p class="lp-hero-lead">
+						Samruddhi Enterprises supplies clean room doors, drop seals, interlocking systems and door hardware trusted by leading pharma and life-science facilities across India.
+					</p>
+					<ul class="lp-hero-list">
+						<li>Compliant with clean room airflow & access requirements</li>
+						<li>Supply, installation guidance & after-sales support</li>
+						<li>Based in Bangalore — projects pan-India</li>
+					</ul>
+					<a href="#quote" class="btn-primary-lp">Request a free quote</a>
+				</div>
+				<div class="col-lg-6">
+					<div class="lp-hero-img">
+						<img src="assets/img/landing/hero-product.png" alt="Samruddhi Enterprises clean room aluminium profile with door seal">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="lp-trust">
+		<div class="container">
+			<div class="lp-trust-stats">
+				<div class="lp-stat"><strong>15+</strong><span>Years experience</span></div>
+				<div class="lp-stat"><strong>500+</strong><span>Clients served</span></div>
+				<div class="lp-stat"><strong>25+</strong><span>Product lines</span></div>
+				<div class="lp-stat"><strong>24hr</strong><span>Quote response</span></div>
+			</div>
+			<p class="lp-logos-label">Trusted by pharmaceutical & healthcare brands</p>
+			<div class="lp-logos">
+				<img src="assets/img/sponsor/sp3.png" alt="Biocon">
+				<img src="assets/img/sponsor/sp14.png" alt="Cipla">
+				<img src="assets/img/sponsor/sp8.png" alt="AstraZeneca">
+				<img src="assets/img/sponsor/sp5.png" alt="Philips">
+				<img src="assets/img/sponsor/sp4.png" alt="Strides">
+				<img src="assets/img/sponsor/sp7.png" alt="Syngene">
+			</div>
+		</div>
+	</section>
+
+	<section class="lp-section lp-section-alt">
+		<div class="container">
+			<div class="lp-section-title">
+				<h2>Products for clean room & pharma facilities</h2>
+				<p>Door seals, hardware and control systems designed to maintain pressure cascades, reduce contamination, and meet facility standards.</p>
+			</div>
+			<div class="row g-4">
+				<div class="col-md-6 col-lg-4">
+					<div class="lp-product-card">
+						<div class="lp-product-img">
+							<img src="assets/img/shop/s8.png" alt="Automatic Drop Down Seal">
+						</div>
+						<div class="lp-product-body">
+							<h3>Automatic Drop Down Seal</h3>
+							<p>Self-lowering seal for airtight closure at the door bottom — ideal for classified areas.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4">
+					<div class="lp-product-card">
+						<div class="lp-product-img">
+							<img src="assets/img/shop/s2.png" alt="Acoustic Door Seal">
+						</div>
+						<div class="lp-product-body">
+							<h3>Acoustic Door Seal</h3>
+							<p>High-performance rubber sealing for noise reduction and environmental separation.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4">
+					<div class="lp-product-card">
+						<div class="lp-product-img">
+							<img src="assets/img/shop/s17.png" alt="Door Interlocking System">
+						</div>
+						<div class="lp-product-body">
+							<h3>Door Interlocking System</h3>
+							<p>Prevents cross-contamination by controlling which doors can open in airlock sequences.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4">
+					<div class="lp-product-card">
+						<div class="lp-product-img">
+							<img src="assets/img/shop/s16.png" alt="Concealed Drop Seal">
+						</div>
+						<div class="lp-product-body">
+							<h3>Concealed Drop Seal</h3>
+							<p>Flush-mounted drop seal for clean aesthetics without compromising the seal line.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4">
+					<div class="lp-product-card">
+						<div class="lp-product-img">
+							<img src="assets/img/shop/s9.png" alt="PVC Door Seal">
+						</div>
+						<div class="lp-product-body">
+							<h3>PVC Door Seal</h3>
+							<p>Durable PVC profiles for consistent perimeter sealing on clean room doors.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4">
+					<div class="lp-product-card">
+						<div class="lp-product-img">
+							<img src="assets/img/shop/s18.png" alt="Pass Box Controller">
+						</div>
+						<div class="lp-product-body">
+							<h3>Pass Box Controller</h3>
+							<p>Interlock control for pass-through chambers between classified zones.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<p class="text-center mt-4 mb-0">
+				<a href="product.html" style="color: var(--orange); font-weight: 600;">View full product catalogue →</a>
+			</p>
+		</div>
+	</section>
+
+	<section class="lp-section">
+		<div class="container">
+			<div class="lp-section-title">
+				<h2>Why facilities choose Samruddhi</h2>
+				<p>End-to-end support from specification to delivery for pharmaceutical and clean manufacturing environments.</p>
+			</div>
+			<div class="row g-4">
+				<div class="col-md-6 col-lg-3">
+					<div class="lp-benefit">
+						<div class="lp-benefit-icon"><i class="fas fa-certificate"></i></div>
+						<div>
+							<h3>Quality focused</h3>
+							<p>Products built for strict cleanliness, airflow control and long service life.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3">
+					<div class="lp-benefit">
+						<div class="lp-benefit-icon"><i class="fas fa-tools"></i></div>
+						<div>
+							<h3>Custom solutions</h3>
+							<p>Door sizes, seal types and interlocking layouts tailored to your layout.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3">
+					<div class="lp-benefit">
+						<div class="lp-benefit-icon"><i class="fas fa-shipping-fast"></i></div>
+						<div>
+							<h3>Reliable delivery</h3>
+							<p>On-time supply for new builds, upgrades and maintenance programmes.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3">
+					<div class="lp-benefit">
+						<div class="lp-benefit-icon"><i class="fas fa-headset"></i></div>
+						<div>
+							<h3>Direct support</h3>
+							<p>Speak with our team for quotes, technical questions and site requirements.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="quote" class="lp-form-section">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-5 lp-form-side">
+					<h2>Get your project quote</h2>
+					<p>Tell us about your clean room or facility. We will respond within one business day.</p>
+					<div class="lp-contact-line">
+						<i class="fas fa-phone"></i>
+						<a href="tel:+919900454111">+91 9900454111 / 9036111365</a>
+					</div>
+					<div class="lp-contact-line">
+						<i class="fas fa-envelope"></i>
+						<a href="mailto:samruddhi.575@gmail.com">samruddhi.575@gmail.com</a>
+					</div>
+					<div class="lp-contact-line">
+						<i class="fas fa-map-marker-alt"></i>
+						<span>Kaveri Layout, Nelamangala, Bangalore – 562123</span>
+					</div>
+				</div>
+				<div class="col-lg-7">
+					<div class="lp-form-wrap">
+						<h2>Request a quote</h2>
+						<p class="sub">All fields marked * are required.</p>
+						<form action="send.php" method="post">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="lp-form-group">
+										<label for="name">Full name *</label>
+										<input type="text" id="name" name="name" required placeholder="Your name">
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="lp-form-group">
+										<label for="email">Email *</label>
+										<input type="email" id="email" name="email" required placeholder="you@example.com">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-12">
+									<div class="lp-form-group">
+										<label for="phone">Phone *</label>
+										<input type="tel" id="phone" name="phone" required placeholder="+91">
+									</div>
+								</div>
+							</div>
+							<div class="lp-form-group">
+								<label for="message">Project details *</label>
+								<textarea id="message" name="message" required placeholder="Products needed, facility type, location, timeline…"></textarea>
+							</div>
+							<button type="submit" class="btn-primary-lp" style="width: 100%; padding: 14px;">Submit enquiry</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="lp-footer">
+		<div class="container">
+			<p>© 2025 Samruddhi Enterprises. Clean room doors & seals, Bangalore.</p>
+			<p><a href="index.html">Main website</a> · <a href="privacypolicy.html">Privacy</a></p>
+		</div>
+	</footer>
+
+</body>
+</html>

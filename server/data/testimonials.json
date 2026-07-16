@@ -1,0 +1,29 @@
+[
+  {
+    "id": "tst-1",
+    "quote": "We would have no hesitation in recommending Samruddhi Enterprises, doing great job. Thank you so much..",
+    "authorName": "Pranjit Borah",
+    "location": "Bangalore",
+    "sortOrder": 1,
+    "published": true,
+    "createdAt": "2024-01-15T10:00:00.000Z"
+  },
+  {
+    "id": "tst-2",
+    "quote": "The job was done on time and on budget and we are extremely happy with the end result which continues to get numerous praises from our neighbors and passers by.",
+    "authorName": "Pallavi Baruah",
+    "location": "Bangalore",
+    "sortOrder": 2,
+    "published": true,
+    "createdAt": "2024-02-20T10:00:00.000Z"
+  },
+  {
+    "id": "tst-3",
+    "quote": "We were extremely impressed with the quality of the workmanship and the level of professionalism displayed by Samruddhi Enterprises and the team at our premises.",
+    "authorName": "Sujit Thakur",
+    "location": "Bangalore",
+    "sortOrder": 3,
+    "published": true,
+    "createdAt": "2024-03-10T10:00:00.000Z"
+  }
+]
